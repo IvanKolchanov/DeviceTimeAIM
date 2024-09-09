@@ -4,75 +4,54 @@ import glob
 import datetime
 import time
 import pytz
-import random
+
+def float_equal(a, b):
+    return abs(a - b) <= 0.00001
 
 class Interval:
-    def __init__(self, intervals = [[0.0, 0.999999]]):
-        self.intervals = intervals
+    """ Keeps track of the interval where the turnover point is
+
+        target() gives calculate_sbs() targets to measure time between
+        
+        validate_target() gives calculate_sbs() targets to measure time between during validation
+        
+        next_check() updates the target, keeps track of validation
+    """
+    def __init__(self, min = 0.0, max = 1.0, mid = 0.5):
+        self.min = min
+        self.max = max
+        self.mid = mid
+        self.port = serial.Serial()
 
     def __str__(self):
-        self.intervals.sort(key=lambda i: i[0])
-        a = ""
-        for i in self.intervals:
-            a += i.__str__()
-        return a
-
-    def contains(self, interval1, interval2):
-        if (interval2[0] >= interval1[0] and interval2[0] <= interval1[1]) and (interval2[1] >= interval1[0] and interval2[1] <= interval1[1]):
-            return True
-        return False
+        return "[" + str(self.min) + " " + str(self.max) + "]" + " - " + str(self.mid)
     
-    def is_intersection(self, interval1, interval2):
-        if (interval1[1] < interval2[0] or interval1[0] > interval2[1]):
-            return False
-        return True
+    def target(self):
+        return [self.min, self.mid]
+    
+    def validate_target(self):
+        return [self.mid, self.max]
 
-    def intersection(self, interval):
-        if not (interval[0] >= 0 and interval[1] <= 1) or not (interval[1] >= 0 and interval[1] <= 1):
-            return -1
-        
-        things_to_append = []
-        things_to_remove = []
-        for i in self.intervals:
-            if not self.is_intersection(i, interval):
-                things_to_remove.append(i)
-            elif self.contains(i, interval):
-                things_to_remove.append(i)
-                things_to_append.append(interval)
-            elif self.is_intersection(i, interval):
-                things_to_remove.append(i)
-                i[0] = max(i[0], interval[0])
-                i[1] = min(i[1], interval[1])
-                things_to_append.append(i)
+    def next_check(self, first, second, is_inside):
+        print("Second increased: ", is_inside)
+        if is_inside:
+            self.max = self.mid
+        else:
+            serialPort.close()
+            print("VALIDATION reconnect device")
+            input("Press enter after reconnection")
+            serialPort.open()
+            if not calculate_sbs(self.port, False, True):
+                serialPort.close()
+                print("VALIDATION reconnect device")
+                input("Press enter after reconnection")
+                serialPort.open()
+                if not calculate_sbs(self.port, False, True):
+                    raise RuntimeError
+            self.min = self.mid
 
-        for i in things_to_append:
-            self.intervals.append(i)
-        for i in things_to_remove:
-            self.intervals.remove(i)
-
-    def not_intersection(self, interval):
-        if not (interval[0] >= 0 and interval[1] <= 1) or not (interval[1] >= 0 and interval[1] <= 1):
-            return -1
-        
-        things_to_append = []
-        things_to_remove = []
-        for i in self.intervals:
-            if self.contains(interval, i):
-                things_to_remove.append(i)
-            elif self.contains(i, interval):
-                things_to_remove.append(i)
-                things_to_append.append([i[0], interval[0]])
-                things_to_append.append([interval[1], i[1]])
-            elif self.is_intersection(i, interval):
-                things_to_remove.append(i)
-                if i[1] < interval[1]: i[1] = interval[0]
-                else: i[0] = interval[1]
-                things_to_append.append(i)
-
-        for i in things_to_append:
-            self.intervals.append(i)
-        for i in things_to_remove:
-            self.intervals.remove(i)
+        self.mid = (self.min + self.max) / 2.0
+        return 0
 
 sbs = Interval()
 
@@ -115,7 +94,7 @@ def check_available_port(port):
         return False
     
 def chose_port():
-    """ Wait for user to enter a legit port or exit
+    """ Waits for user to enter a legit port or exit
 
         :returns:
             A string with the chosen port
@@ -135,12 +114,21 @@ def chose_port():
     return port_chosen
 
 def format_device_time(serial_string, curr_time):
-    serial_string = serial_string.split("Device Time: ")[1]
-    serial_string = serial_string.split("Last Write: ")[0]
+    """ Format the device "r" read information to time that we can actually use
 
-    device_time = datetime.datetime.strptime(serial_string[:-2], '%Y-%m-%d %H:%M:%S')
-    device_time = device_time.replace(tzinfo=curr_time.tzinfo)
-    return device_time
+        :returns:
+            A datetime object with device's current time
+    """
+    try:
+        serial_string = serial_string.split("Device Time: ")[1]
+        serial_string = serial_string.split("Last Write: ")[0]
+
+        device_time = datetime.datetime.strptime(serial_string[:-2], '%Y-%m-%d %H:%M:%S')
+        device_time = device_time.replace(tzinfo=curr_time.tzinfo)
+        return device_time
+    except:
+        print("Failed read")
+        print(serial_string)
 
 def connect_port(port_chosen):
     """ Reads current time and device time, compares them and outputs difference
@@ -187,36 +175,53 @@ def connect_port(port_chosen):
     print("Difference: ", difference)
     return [curr_time, device_time, difference, read_latency]
 
-def calculate_sbs(serialPort):
+def sleep_until_ms(until):
+    """ Sleeps until a specified number of miliseconds of actual time is reached
+
+        :returns:
+            Nothing
+    """
+    now = datetime.datetime.now()
+    now = (float)(now.microsecond) / 1000000.0
+    if until > now: time.sleep(until - now)
+    else: time.sleep(1 - now + until)
+
+def calculate_sbs(serialPort, first_read, validate):
+    """ Calculates the current step of turnover or validates an interval
+
+        :returns:
+            Nothing in case of error or Interval object sbs
+    """
+    target = sbs.target()
+    if validate: target = sbs.validate_target()
+
+    if first_read: target[0] -= 0.05
+    sleep_until_ms(target[0])
+
+    read_request = str.encode('r')
     start_time = time.time()
+    serialPort.write(read_request) # Set device in read mode
     curr_time1 = datetime.datetime.now(pytz.timezone('America/Chicago'))
-    print("first write")
-    serialPort.write(str.encode('r')) # Set device in read mode
     read_latency1 = time.time() - start_time
     
     input_chunk1 = serialPort.read(serialPort.in_waiting)
-    print("before first read")
     time.sleep(0.01)
     while serialPort.in_waiting > 0 and time.time() - start_time < 1:
         input_chunk1 += serialPort.read(serialPort.in_waiting)
         time.sleep(0.01)
-    #serial_string += input_chunk.decode("Ascii")
-    #first = serial_string
-    print("after first read")
 
-    time.sleep(random.random())
+    sleep_until_ms(target[1])
+    
     start_time = time.time()
+    serialPort.write(read_request) # Set device in read mode
     curr_time2 = datetime.datetime.now(pytz.timezone('America/Chicago'))
-    serialPort.write(str.encode('r')) # Set device in read mode
     read_latency2 = time.time() - start_time
     
-    print("before second read")
     input_chunk2 = serialPort.read(serialPort.in_waiting)
     time.sleep(0.01)
     while serialPort.in_waiting > 0 and time.time() - start_time < 1:
         input_chunk2 += serialPort.read(serialPort.in_waiting)
         time.sleep(0.01)
-    print("after second read")
 
     #We can finaly decode and do stuff
     text1 = input_chunk1.decode("Ascii")
@@ -245,28 +250,11 @@ def calculate_sbs(serialPort):
         print("Took too long")
         return
     
-    interval = []
     num1 = (float)(first[0].microsecond) / 1000000.0
     num2 = (float)(second[0].microsecond) / 1000000.0
     print(num1, num2)
-    difference_actual_seconds = second[0].second - first[0].second
-    if difference_actual_seconds == 0:
-        interval = [num1, num2]
-    elif difference_actual_seconds > 0:
-        interval = [[num1, 0.999999], [0.0, num2]]
-    print(interval)
-
-    if device_difference.seconds == 0:
-        if type(interval[0]) == float:
-            sbs.not_intersection(interval)
-        else:
-            sbs.not_intersection(interval[0])
-            sbs.not_intersection(interval[1])
-    else:
-        if  type(interval[0]) == float:
-            sbs.intersection(interval)
-        else:
-            sbs.not_intersection([interval[1][1], interval[0][0]])
+    if validate: return device_difference.seconds == 1
+    sbs.next_check(num1, num2, device_difference.seconds == 1)
 
     return sbs
 
@@ -339,15 +327,19 @@ if __name__ == '__main__':
             serialPort = serial.Serial(
             port=port_chosen, baudrate=115200, bytesize=8, timeout=4, stopbits=serial.STOPBITS_ONE, write_timeout=2
             )
+            sbs.port = serialPort
+            result = 0
             for i in range(10):
-                result = calculate_sbs(serialPort)
-                print(result)
+                if i == 0:
+                    result = calculate_sbs(serialPort, True, False)
+                else:
+                    result = calculate_sbs(serialPort, False, False)
                 serialPort.close()
+                print(result)
                 print("reconnect device")
                 input("Press enter after reconnection")
                 serialPort.open()
                 
-            serialPort.close()
             print("\n\n")
             print(sbs)
             
