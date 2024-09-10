@@ -9,6 +9,74 @@ import winsound
 def float_equal(a : float, b : float) -> bool:
     return abs(a - b) <= 0.00001
 
+class Intervals:
+    def __init__(self, intervals = [[0.0, 0.999999]]):
+        self.intervals = intervals
+
+    def __str__(self):
+        self.intervals.sort(key=lambda i: i[0])
+        a = ""
+        for i in self.intervals:
+            a += i.__str__()
+        return a
+
+    def contains(self, interval1, interval2):
+        if (interval2[0] >= interval1[0] and interval2[0] <= interval1[1]) and (interval2[1] >= interval1[0] and interval2[1] <= interval1[1]):
+            return True
+        return False
+
+    def is_intersection(self, interval1, interval2):
+        if (interval1[1] < interval2[0] or interval1[0] > interval2[1]):
+            return False
+        return True
+
+    def intersection(self, interval):
+        if not (interval[0] >= 0 and interval[1] <= 1) or not (interval[1] >= 0 and interval[1] <= 1):
+            return -1
+
+        things_to_append = []
+        things_to_remove = []
+        for i in self.intervals:
+            if not self.is_intersection(i, interval):
+                things_to_remove.append(i)
+            elif self.contains(i, interval):
+                things_to_remove.append(i)
+                things_to_append.append(interval)
+            elif self.is_intersection(i, interval):
+                things_to_remove.append(i)
+                i[0] = max(i[0], interval[0])
+                i[1] = min(i[1], interval[1])
+                things_to_append.append(i)
+
+        for i in things_to_append:
+            self.intervals.append(i)
+        for i in things_to_remove:
+            self.intervals.remove(i)
+
+    def not_intersection(self, interval):
+        if not (interval[0] >= 0 and interval[1] <= 1) or not (interval[1] >= 0 and interval[1] <= 1):
+            return -1
+
+        things_to_append = []
+        things_to_remove = []
+        for i in self.intervals:
+            if self.contains(interval, i):
+                things_to_remove.append(i)
+            elif self.contains(i, interval):
+                things_to_remove.append(i)
+                things_to_append.append([i[0], interval[0]])
+                things_to_append.append([interval[1], i[1]])
+            elif self.is_intersection(i, interval):
+                things_to_remove.append(i)
+                if i[1] < interval[1]: i[1] = interval[0]
+                else: i[0] = interval[1]
+                things_to_append.append(i)
+
+        for i in things_to_append:
+            self.intervals.append(i)
+        for i in things_to_remove:
+            self.intervals.remove(i)
+
 class Interval:
     """ Keeps track of the interval where the turnover point is
 
@@ -23,6 +91,7 @@ class Interval:
         self.max = max
         self.mid = mid
         self.port = serial.Serial()
+        self.intervals = Intervals()
 
     def __str__(self):
         return "[" + str(self.min) + " " + str(self.max) + "]" + " - " + str(self.mid)
@@ -30,31 +99,36 @@ class Interval:
     def target(self) -> list[float]:
         return [self.min, self.mid]
     
-    def validate_target(self) -> list[float]:
-        return [self.mid, self.max]
+    def find_new_min_max(self):
+        for i in self.intervals.intervals:
+            target = i
+            target[0] -= 0.001
+            target[1] += 0.001
+        return 
 
     def next_check(self, first, second, is_inside : bool):
         print("Second increased: ", is_inside)
         if is_inside:
             self.max = self.mid
         else:
-            self.port.close()
-            print("VALIDATION reconnect device")
-            input("Press enter after reconnection")
-            self.port.open()
-            if not calculate_sbs(self.port, self, False, True):
+            device_reconnect_request(self.port, "VALIDATION 1:")
+            if not calculate_sbs(self.port, self, [], [self.mid, self.max]):
                 print("Second increased: ", False)
-                self.port.close()
-                print("VALIDATION reconnect device")
-                input("Press enter after reconnection")
-                self.port.open()
-                if not calculate_sbs(self.port, self, False, True):
-                    raise RuntimeError
+                device_reconnect_request(self.port, "VALIDATION 2:")
+                if not calculate_sbs(self.port, self, [], [self.mid, self.max]):
+                    self.find_new_min_max()
             print("Second increased: ", True)
             self.min = self.mid
 
         self.mid = (self.min + self.max) / 2.0
         return
+
+def device_reconnect_request(serial_port : serial.Serial, reconnect_reason : str = ""):
+    if not reconnect_reason == "": print(reconnect_reason)
+    serial_port.close()
+    print("Reconnect device")
+    input("Press enter after reconnection\n")
+    serial_port.open()
 
 def serial_ports() -> list[str]:
     print("COM ports available:")
@@ -108,7 +182,7 @@ def chose_port() -> str:
         if port_chosen == "Exit" or port_chosen == "exit": return
             
         if check_available_port(port_chosen):
-                print("The port is available")
+            print("The port is available")
         else:
             print("The port is NOT available")
             port_chosen = ""
@@ -136,8 +210,7 @@ def dummy_first_read(port_chosen : str):
     connect_port(port_chosen, True)
     print("Test read complete")
     print("Reconnect device")
-    input("Press enter after reconnection")
-    print()
+    input("Press enter after reconnection\n")
 
 def connect_port(port_chosen : str, dummy_read : bool) -> list:
     """ Reads current time and device time, compares them and outputs difference
@@ -195,7 +268,7 @@ def sleep_until_ms(until : float):
     if until > now: time.sleep(until - now)
     else: time.sleep(1 - now + until)
 
-def calculate_turnover_point(port_chosen : str, sbs : Interval):
+def calculate_turnover_point(port_chosen : str, sbs : Interval, intervals : Intervals):
     dummy_first_read(port_chosen)
     serial_port = serial.Serial(
     port=port_chosen, baudrate=115200, bytesize=8, timeout=4, stopbits=serial.STOPBITS_ONE, write_timeout=2
@@ -203,25 +276,18 @@ def calculate_turnover_point(port_chosen : str, sbs : Interval):
     sbs.port = serial_port
     result = 0
     for i in range(10):
-        if i == 0:
-            result = calculate_sbs(serial_port, sbs, True, False)
-        else:
-            result = calculate_sbs(serial_port, sbs, False, False)
-        serial_port.close()
+        result = calculate_sbs(serial_port, sbs, intervals, [])
         print(result)
-        print("Reconnect device")
-        input("Press enter after reconnection")
-        print()
-        serial_port.open()
+        device_reconnect_request(serial_port)
 
-def calculate_sbs(serial_port : serial.Serial, sbs : Interval, first_read : bool, validate : bool) -> any:
+def calculate_sbs(serial_port : serial.Serial, sbs : Interval, intervals : Intervals, validate : list[float] = []) -> any:
     """ Calculates the current step of turnover or validates an interval
 
         :returns:
             Nothing in case of error or Interval object sbs
     """
     target = sbs.target()
-    if validate: target = sbs.validate_target()
+    if validate != []: target = validate
 
     sleep_until_ms(target[0])
 
@@ -232,10 +298,10 @@ def calculate_sbs(serial_port : serial.Serial, sbs : Interval, first_read : bool
     read_latency1 = time.time() - start_time
     
     input_chunk1 = serial_port.read(serial_port.in_waiting)
-    time.sleep(0.01)
+    time.sleep(0.005)
     while serial_port.in_waiting > 0:
         input_chunk1 += serial_port.read(serial_port.in_waiting)
-        time.sleep(0.01)
+        time.sleep(0.005)
 
     sleep_until_ms(target[1])
     
@@ -264,23 +330,44 @@ def calculate_sbs(serial_port : serial.Serial, sbs : Interval, first_read : bool
     second = [curr_time2, device_time2, difference2, read_latency2]
     
     if len(first) == 0 or len(second) == 0:
-        print("Reading fail")
-        return
+        device_reconnect_request(serial_port, "Reading fail")
+        return calculate_sbs(serial_port, sbs, intervals, [])
     
     device_difference = (second[1] - first[1]).total_seconds()
 
     print(first)
     print(second)
     if device_difference > 1.0:
-        print("Took too long")
-        return
+        device_reconnect_request(serial_port, "Request took too long")
+        return calculate_sbs(serial_port, sbs, intervals, [])
     
     num1 = (float)(first[0].microsecond) / 1000000.0
     num2 = (float)(second[0].microsecond) / 1000000.0
     print(num1, num2)
-    if validate: return float_equal(device_difference, 1)
+    if validate != []: return float_equal(device_difference, 1)
     sbs.next_check(num1, num2, float_equal(device_difference, 1))
 
+    if intervals == []: return sbs
+    interval = []
+    difference_actual_seconds = curr_time2 - curr_time1
+    if difference_actual_seconds.total_seconds() < 1.0:
+        interval = [num1, num2]
+    elif difference_actual_seconds.total_seconds() < 2.0:
+        interval = [[num1, 0.999999], [0.0, num2]]
+    print(interval)
+
+    if device_difference < 1.0:
+        if type(interval[0]) == float:
+            intervals.not_intersection(interval)
+        else:
+            intervals.not_intersection(interval[0])
+            intervals.not_intersection(interval[1])
+    else:
+        if  type(interval[0]) == float:
+            intervals.intersection(interval)
+        else:
+            intervals.not_intersection([interval[1][1], interval[0][0]])
+    print(intervals)
     return sbs
 
 def prepare_write_date_time() -> bytes:
@@ -407,7 +494,9 @@ if __name__ == '__main__':
         if option_chosen == 3:
             port_chosen = chose_port()
             result = Interval()
-            calculate_turnover_point(port_chosen, result)
+            intervals = Intervals()
+            result.intervals = intervals
+            calculate_turnover_point(port_chosen, result, intervals)
         if option_chosen == 4:
             port_chosen = chose_port()
             calibrate(port_chosen)
