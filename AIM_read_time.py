@@ -4,6 +4,7 @@ import glob
 import datetime
 import time
 import pytz
+import winsound
 
 def float_equal(a : float, b : float) -> bool:
     return abs(a - b) <= 0.00001
@@ -175,6 +176,16 @@ def connect_port(port_chosen : str) -> list:
     print("Difference: ", difference)
     return [curr_time, device_time, difference, read_latency]
 
+def sleep_until_datetime(wait_until : datetime):
+    """ Sleeps until wait_until : datetime of actual time is reached
+
+        :returns:
+            Nothing
+    """
+    now = datetime.datetime.now(pytz.timezone('America/Chicago'))
+    difference = wait_until - now
+    time.sleep(difference.total_seconds())
+
 def sleep_until_ms(until : float):
     """ Sleeps until a specified number of miliseconds of actual time is reached
 
@@ -308,8 +319,62 @@ def write_date_time(port_chosen : str):
     connect_port(port_chosen)
     print("Finished writing: ", write_info)
 
+def calculate_ppm(first: datetime, second: datetime, time_period: float) -> float:
+    """ Calculates ppm from two time measurement of devices over the time_period
+
+        :returns:
+            ppm
+    """
+    time_difference = second - first
+    ppm = (time_difference.total_seconds() / time_period) * 10**6
+    return ppm
+
+def calculate_register_from_ppm(ppm: float) -> list[int]:
+    """ Calculates values of registers CALP and CALM
+
+        :returns:
+            [CALP, CALM]
+    """
+    maximum_increase = 488.5
+    step_down_value = 0.9537
+    CALM, CALP = 0, 0
+    if (ppm > 0):
+        CALM = round(ppm / step_down_value)
+    else:
+        CALP = 1
+        if ppm + maximum_increase > 0:
+            CALM = round((ppm + maximum_increase) / step_down_value)
+    return [CALP, CALM]
+
+
+def calibrate():
+    """Steps to calibration:
+        1. Set fresh time - 
+        2. Scan accurate time right now - calibrate_sbs
+        3. Wait N time, play a sound 30 seconds before end, sleep 30 more seconds
+        4. Scan accurate time again - calibrate_sbs ✓✓✓
+        5. Calculate the time difference over N - calculate_ppm ✓✓✓
+        6. Get calibration value for the device - calculate_register_for_ppm ✓✓✓
+    """
+
+    #Sleep till time -30 seconds
+    N = 40
+    print(datetime.datetime.now(pytz.timezone('America/Chicago')))
+    target = datetime.datetime.now(pytz.timezone('America/Chicago')) + datetime.timedelta(seconds=(N - 30))
+    sleep_until_datetime(target)
+    #Play a sound to call for attention
+    winsound.PlaySound('C:\\Users\\kolch\\Documents\\DeviceTimeAIM\\notification.wav', winsound.SND_ASYNC)
+    print(datetime.datetime.now(pytz.timezone('America/Chicago')))
+    target = datetime.datetime.now(pytz.timezone('America/Chicago')) + datetime.timedelta(seconds=30)
+    #Continue sleeping till full time
+    sleep_until_datetime(target)
+    print(datetime.datetime.now(pytz.timezone('America/Chicago')))
+    return
+
 if __name__ == '__main__':
+    calibrate()
     while 1:
+        break
         print("\nEnter number to perform operation or Ctrl+C to exit:")
         print("1. Read time from device")
         print("2. Set time to device")
