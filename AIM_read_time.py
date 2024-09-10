@@ -38,23 +38,23 @@ class Interval:
         if is_inside:
             self.max = self.mid
         else:
-            serialPort.close()
+            self.port.close()
             print("VALIDATION reconnect device")
             input("Press enter after reconnection")
-            serialPort.open()
-            if not calculate_sbs(self.port, False, True):
-                serialPort.close()
+            self.port.open()
+            if not calculate_sbs(self.port, self, False, True):
+                print("Second increased: ", False)
+                self.port.close()
                 print("VALIDATION reconnect device")
                 input("Press enter after reconnection")
-                serialPort.open()
-                if not calculate_sbs(self.port, False, True):
+                self.port.open()
+                if not calculate_sbs(self.port, self, False, True):
                     raise RuntimeError
+            print("Second increased: ", True)
             self.min = self.mid
 
         self.mid = (self.min + self.max) / 2.0
         return
-
-sbs = Interval()
 
 def serial_ports() -> list[str]:
     print("COM ports available:")
@@ -197,7 +197,25 @@ def sleep_until_ms(until : float):
     if until > now: time.sleep(until - now)
     else: time.sleep(1 - now + until)
 
-def calculate_sbs(serialPort : serial.Serial, first_read : bool, validate : bool) -> any:
+def calculate_turnover_point(port_chosen : str, sbs : Interval):
+    serialPort = serial.Serial(
+    port=port_chosen, baudrate=115200, bytesize=8, timeout=4, stopbits=serial.STOPBITS_ONE, write_timeout=2
+    )
+    sbs.port = serialPort
+    result = 0
+    for i in range(10):
+        if i == 0:
+            result = calculate_sbs(serialPort, sbs, True, False)
+        else:
+            result = calculate_sbs(serialPort, sbs, False, False)
+        serialPort.close()
+        print(result)
+        print("Reconnect device")
+        input("Press enter after reconnection")
+        print()
+        serialPort.open()
+
+def calculate_sbs(serialPort : serial.Serial, sbs : Interval, first_read : bool, validate : bool) -> any:
     """ Calculates the current step of turnover or validates an interval
 
         :returns:
@@ -217,7 +235,7 @@ def calculate_sbs(serialPort : serial.Serial, first_read : bool, validate : bool
     
     input_chunk1 = serialPort.read(serialPort.in_waiting)
     time.sleep(0.01)
-    while serialPort.in_waiting > 0 and time.time() - start_time < 1:
+    while serialPort.in_waiting > 0:
         input_chunk1 += serialPort.read(serialPort.in_waiting)
         time.sleep(0.01)
 
@@ -230,7 +248,7 @@ def calculate_sbs(serialPort : serial.Serial, first_read : bool, validate : bool
     
     input_chunk2 = serialPort.read(serialPort.in_waiting)
     time.sleep(0.01)
-    while serialPort.in_waiting > 0 and time.time() - start_time < 1:
+    while serialPort.in_waiting > 0:
         input_chunk2 += serialPort.read(serialPort.in_waiting)
         time.sleep(0.01)
 
@@ -247,13 +265,11 @@ def calculate_sbs(serialPort : serial.Serial, first_read : bool, validate : bool
     if device_time2 > curr_time2: difference2 = device_time2 - curr_time2
     second = [curr_time2, device_time2, difference2, read_latency2]
     
-    
     if len(first) == 0 or len(second) == 0:
         print("Reading fail")
         return
     
     device_difference = second[1] - first[1]
-    print(device_difference)
 
     print(first)
     print(second)
@@ -347,7 +363,7 @@ def calculate_register_from_ppm(ppm: float) -> list[int]:
     return [CALP, CALM]
 
 
-def calibrate():
+def calibrate(port_chosen : str):
     """Steps to calibration:
         1. Set fresh time - 
         2. Scan accurate time right now - calibrate_sbs
@@ -356,9 +372,9 @@ def calibrate():
         5. Calculate the time difference over N - calculate_ppm ✓✓✓
         6. Get calibration value for the device - calculate_register_for_ppm ✓✓✓
     """
-
-    #Sleep till time -30 seconds
     N = 40
+    #3
+    #Sleep till time -30 seconds
     print(datetime.datetime.now(pytz.timezone('America/Chicago')))
     target = datetime.datetime.now(pytz.timezone('America/Chicago')) + datetime.timedelta(seconds=(N - 30))
     sleep_until_datetime(target)
@@ -372,13 +388,12 @@ def calibrate():
     return
 
 if __name__ == '__main__':
-    calibrate()
     while 1:
-        break
         print("\nEnter number to perform operation or Ctrl+C to exit:")
         print("1. Read time from device")
         print("2. Set time to device")
         print("3. Find subseconds")
+        print("4. Calibration (TODO)")
         option_chosen = (int)(input("Enter: "))
 
         if option_chosen == 1:
@@ -389,22 +404,9 @@ if __name__ == '__main__':
             result = write_date_time(port_chosen)
         if option_chosen == 3:
             port_chosen = chose_port()
-            serialPort = serial.Serial(
-            port=port_chosen, baudrate=115200, bytesize=8, timeout=4, stopbits=serial.STOPBITS_ONE, write_timeout=2
-            )
-            sbs.port = serialPort
-            result = 0
-            for i in range(10):
-                if i == 0:
-                    result = calculate_sbs(serialPort, True, False)
-                else:
-                    result = calculate_sbs(serialPort, False, False)
-                serialPort.close()
-                print(result)
-                print("reconnect device")
-                input("Press enter after reconnection")
-                serialPort.open()
-                
-            print("\n\n")
-            print(sbs)
+            result = Interval()
+            calculate_turnover_point(port_chosen, result)
+        if option_chosen == 4:
+            port_chosen = chose_port()
+            calibrate(port_chosen)
             
