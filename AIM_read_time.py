@@ -5,7 +5,7 @@ import datetime
 import time
 import pytz
 
-def float_equal(a, b):
+def float_equal(a : float, b : float) -> bool:
     return abs(a - b) <= 0.00001
 
 class Interval:
@@ -26,13 +26,13 @@ class Interval:
     def __str__(self):
         return "[" + str(self.min) + " " + str(self.max) + "]" + " - " + str(self.mid)
     
-    def target(self):
+    def target(self) -> list[float]:
         return [self.min, self.mid]
     
-    def validate_target(self):
+    def validate_target(self) -> list[float]:
         return [self.mid, self.max]
 
-    def next_check(self, first, second, is_inside):
+    def next_check(self, first, second, is_inside : bool):
         print("Second increased: ", is_inside)
         if is_inside:
             self.max = self.mid
@@ -51,11 +51,11 @@ class Interval:
             self.min = self.mid
 
         self.mid = (self.min + self.max) / 2.0
-        return 0
+        return
 
 sbs = Interval()
 
-def serial_ports():
+def serial_ports() -> list[str]:
     print("COM ports available:")
     """ Lists serial port names
 
@@ -80,7 +80,7 @@ def serial_ports():
             result.append(port)
     return result
 
-def check_available_port(port):
+def check_available_port(port : str) -> bool:
     """ Checks if the entered port is available
 
         :returns:
@@ -93,7 +93,7 @@ def check_available_port(port):
     except (OSError, serial.SerialException):
         return False
     
-def chose_port():
+def chose_port() -> str:
     """ Waits for user to enter a legit port or exit
 
         :returns:
@@ -113,7 +113,7 @@ def chose_port():
             port_chosen = ""
     return port_chosen
 
-def format_device_time(serial_string, curr_time):
+def format_device_time(serial_string : str, curr_time : datetime) -> datetime:
     """ Format the device "r" read information to time that we can actually use
 
         :returns:
@@ -130,11 +130,11 @@ def format_device_time(serial_string, curr_time):
         print("Failed read")
         print(serial_string)
 
-def connect_port(port_chosen):
+def connect_port(port_chosen : str) -> list:
     """ Reads current time and device time, compares them and outputs difference
 
         :returns:
-            Nothing
+            [curr_time : datetime, device_time : datetime, difference : timedelta, read_latency : timedelta]
     """
     serial_string = "" # Used to hold data coming over UART
     serialPort = serial.Serial(
@@ -175,7 +175,7 @@ def connect_port(port_chosen):
     print("Difference: ", difference)
     return [curr_time, device_time, difference, read_latency]
 
-def sleep_until_ms(until):
+def sleep_until_ms(until : float):
     """ Sleeps until a specified number of miliseconds of actual time is reached
 
         :returns:
@@ -186,7 +186,7 @@ def sleep_until_ms(until):
     if until > now: time.sleep(until - now)
     else: time.sleep(1 - now + until)
 
-def calculate_sbs(serialPort, first_read, validate):
+def calculate_sbs(serialPort : serial.Serial, first_read : bool, validate : bool) -> any:
     """ Calculates the current step of turnover or validates an interval
 
         :returns:
@@ -258,7 +258,7 @@ def calculate_sbs(serialPort, first_read, validate):
 
     return sbs
 
-def prepare_write_date_time():
+def prepare_write_date_time() -> bytes:
     """ Prepares a string to set time to the device
 
         :returns:
@@ -290,7 +290,7 @@ def prepare_write_date_time():
     write_info_bytes = write_info.encode("Ascii")
     return write_info_bytes
 
-def write_date_time(port_chosen):
+def write_date_time(port_chosen : str):
     """ Writes new date&time to the device
 
         :returns:
