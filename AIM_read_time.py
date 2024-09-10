@@ -131,49 +131,47 @@ def format_device_time(serial_string : str, curr_time : datetime) -> datetime:
         print("Failed read")
         print(serial_string)
 
-def connect_port(port_chosen : str) -> list:
+def dummy_first_read(port_chosen : str):
+    connect_port(port_chosen, True)
+    connect_port(port_chosen, True)
+    print("Test read complete")
+    print("Reconnect device")
+    input("Press enter after reconnection")
+    print()
+
+def connect_port(port_chosen : str, dummy_read : bool) -> list:
     """ Reads current time and device time, compares them and outputs difference
 
         :returns:
             [curr_time : datetime, device_time : datetime, difference : timedelta, read_latency : timedelta]
     """
+    if not dummy_read: dummy_first_read(port_chosen)
     serial_string = "" # Used to hold data coming over UART
-    serialPort = serial.Serial(
+    serial_port = serial.Serial(
     port=port_chosen, baudrate=115200, bytesize=8, timeout=4, stopbits=serial.STOPBITS_ONE
     )
     start_time = time.time()
+    read_request = str.encode('r')
+    serial_port.write(read_request) # Set device in read mode
     curr_time = datetime.datetime.now(pytz.timezone('America/Chicago'))
-    serialPort.write(str.encode('r')) # Set device in read mode
     read_latency = time.time() - start_time
-    print("It took: ", read_latency, "to read time from the device")
     
-    input_chunk = serialPort.read(size=1024)
-    serial_string += input_chunk.decode("Ascii")
-    while len(input_chunk) > 0:
-        try:
-            serial_string += input_chunk.decode("Ascii")
-            input_chunk = serialPort.read(size=1024)
-        except:
-            serialPort.close()
-            return []
-            
-    
+    input_chunk = serial_port.read(serial_port.in_waiting)
+    time.sleep(0.01)
+    while serial_port.in_waiting > 0:
+        input_chunk += serial_port.read(serial_port.in_waiting)
+        time.sleep(0.01)
+
+    serial_string = input_chunk.decode("Ascii")
     if serial_string == "":
         print("Error in reading device info")
         print("Reading: \"", serial_string, "\"")
         return []
     
-    serialPort.close()
-
-    print("Actual time: ", curr_time)
+    serial_port.close()
 
     device_time = format_device_time(serial_string, curr_time)
-    print("Device time: ", device_time)
-
-    difference = curr_time - device_time
-    if device_time > curr_time: difference = device_time - curr_time
-    
-    print("Difference: ", difference)
+    difference = device_time - curr_time
     return [curr_time, device_time, difference, read_latency]
 
 def sleep_until_datetime(wait_until : datetime):
@@ -198,24 +196,25 @@ def sleep_until_ms(until : float):
     else: time.sleep(1 - now + until)
 
 def calculate_turnover_point(port_chosen : str, sbs : Interval):
-    serialPort = serial.Serial(
+    dummy_first_read(port_chosen)
+    serial_port = serial.Serial(
     port=port_chosen, baudrate=115200, bytesize=8, timeout=4, stopbits=serial.STOPBITS_ONE, write_timeout=2
     )
-    sbs.port = serialPort
+    sbs.port = serial_port
     result = 0
     for i in range(10):
         if i == 0:
-            result = calculate_sbs(serialPort, sbs, True, False)
+            result = calculate_sbs(serial_port, sbs, True, False)
         else:
-            result = calculate_sbs(serialPort, sbs, False, False)
-        serialPort.close()
+            result = calculate_sbs(serial_port, sbs, False, False)
+        serial_port.close()
         print(result)
         print("Reconnect device")
         input("Press enter after reconnection")
         print()
-        serialPort.open()
+        serial_port.open()
 
-def calculate_sbs(serialPort : serial.Serial, sbs : Interval, first_read : bool, validate : bool) -> any:
+def calculate_sbs(serial_port : serial.Serial, sbs : Interval, first_read : bool, validate : bool) -> any:
     """ Calculates the current step of turnover or validates an interval
 
         :returns:
@@ -224,32 +223,31 @@ def calculate_sbs(serialPort : serial.Serial, sbs : Interval, first_read : bool,
     target = sbs.target()
     if validate: target = sbs.validate_target()
 
-    if first_read: target[0] -= 0.05
     sleep_until_ms(target[0])
 
     read_request = str.encode('r')
     start_time = time.time()
-    serialPort.write(read_request) # Set device in read mode
+    serial_port.write(read_request) # Set device in read mode
     curr_time1 = datetime.datetime.now(pytz.timezone('America/Chicago'))
     read_latency1 = time.time() - start_time
     
-    input_chunk1 = serialPort.read(serialPort.in_waiting)
+    input_chunk1 = serial_port.read(serial_port.in_waiting)
     time.sleep(0.01)
-    while serialPort.in_waiting > 0:
-        input_chunk1 += serialPort.read(serialPort.in_waiting)
+    while serial_port.in_waiting > 0:
+        input_chunk1 += serial_port.read(serial_port.in_waiting)
         time.sleep(0.01)
 
     sleep_until_ms(target[1])
     
     start_time = time.time()
-    serialPort.write(read_request) # Set device in read mode
+    serial_port.write(read_request) # Set device in read mode
     curr_time2 = datetime.datetime.now(pytz.timezone('America/Chicago'))
     read_latency2 = time.time() - start_time
     
-    input_chunk2 = serialPort.read(serialPort.in_waiting)
+    input_chunk2 = serial_port.read(serial_port.in_waiting)
     time.sleep(0.01)
-    while serialPort.in_waiting > 0:
-        input_chunk2 += serialPort.read(serialPort.in_waiting)
+    while serial_port.in_waiting > 0:
+        input_chunk2 += serial_port.read(serial_port.in_waiting)
         time.sleep(0.01)
 
     #We can finaly decode and do stuff
@@ -269,19 +267,19 @@ def calculate_sbs(serialPort : serial.Serial, sbs : Interval, first_read : bool,
         print("Reading fail")
         return
     
-    device_difference = second[1] - first[1]
+    device_difference = (second[1] - first[1]).total_seconds()
 
     print(first)
     print(second)
-    if device_difference.seconds > 1:
+    if device_difference > 1.0:
         print("Took too long")
         return
     
     num1 = (float)(first[0].microsecond) / 1000000.0
     num2 = (float)(second[0].microsecond) / 1000000.0
     print(num1, num2)
-    if validate: return device_difference.seconds == 1
-    sbs.next_check(num1, num2, device_difference.seconds == 1)
+    if validate: return float_equal(device_difference, 1)
+    sbs.next_check(num1, num2, float_equal(device_difference, 1))
 
     return sbs
 
@@ -324,12 +322,12 @@ def write_date_time(port_chosen : str):
             Nothing
     """
     print("Preparing to write")
-    serialPort = serial.Serial(port=port_chosen, baudrate=115200, bytesize=8, timeout=4, stopbits=serial.STOPBITS_ONE)
+    serial_port = serial.Serial(port=port_chosen, baudrate=115200, bytesize=8, timeout=4, stopbits=serial.STOPBITS_ONE)
     start_time = time.time()
     write_info = prepare_write_date_time()
-    serialPort.write(write_info)
+    serial_port.write(write_info)
     print("It took: ", time.time() - start_time, " to set time to the device")
-    serialPort.close()
+    serial_port.close()
     time.sleep(1)
     
     connect_port(port_chosen)
@@ -398,7 +396,11 @@ if __name__ == '__main__':
 
         if option_chosen == 1:
             port_chosen = chose_port()
-            result = connect_port(port_chosen)
+            result = connect_port(port_chosen, False)
+            print("Actual time: ", result[0])
+            print("Device time: ", result[1])
+            print("Difference: ", result[2])
+            print("It took: ", result[3], "to read time from the device")
         if option_chosen == 2:
             port_chosen = chose_port()
             result = write_date_time(port_chosen)
