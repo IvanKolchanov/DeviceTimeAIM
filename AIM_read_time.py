@@ -124,7 +124,7 @@ class Interval:
         return
 
 def device_reconnect_request(serial_port : serial.Serial, reconnect_reason : str = ""):
-    if not reconnect_reason == "": print(reconnect_reason)
+    if reconnect_reason != "": print(reconnect_reason)
     serial_port.close()
     print("Reconnect device")
     input("Press enter after reconnection\n")
@@ -188,7 +188,7 @@ def chose_port() -> str:
             port_chosen = ""
     return port_chosen
 
-def format_device_time(serial_string : str, curr_time : datetime) -> datetime:
+def format_device_time(serial_string : str, curr_time : datetime.datetime) -> datetime.datetime:
     """ Format the device "r" read information to time that we can actually use
 
         :returns:
@@ -200,6 +200,22 @@ def format_device_time(serial_string : str, curr_time : datetime) -> datetime:
 
         device_time = datetime.datetime.strptime(serial_string[:-2], '%Y-%m-%d %H:%M:%S')
         device_time = device_time.replace(tzinfo=curr_time.tzinfo)
+        return device_time
+    except:
+        print("Failed read")
+        print(serial_string)
+
+def get_battery_voltage(serial_string : str) -> int:
+    """ Format the device "r" read information to find battery voltage
+
+        :returns:
+            Battery voltage information
+    """
+    try:
+        serial_string = serial_string.split("Battery Voltage: ")[1]
+        serial_string = serial_string.split(" mV")[0]
+
+        device_time = int(serial_string)
         return device_time
     except:
         print("Failed read")
@@ -247,7 +263,7 @@ def connect_port(port_chosen : str, dummy_read : bool) -> list:
     difference = device_time - curr_time
     return [curr_time, device_time, difference, read_latency]
 
-def sleep_until_datetime(wait_until : datetime):
+def sleep_until_datetime(wait_until : datetime.datetime):
     """ Sleeps until wait_until : datetime of actual time is reached
 
         :returns:
@@ -292,10 +308,10 @@ def calculate_sbs(serial_port : serial.Serial, sbs : Interval, intervals : Inter
     sleep_until_ms(target[0])
 
     read_request = str.encode('r')
-    start_time = time.time()
+    #start_time = time.time()
     serial_port.write(read_request) # Set device in read mode
     curr_time1 = datetime.datetime.now(pytz.timezone('America/Chicago'))
-    read_latency1 = time.time() - start_time
+    #read_latency1 = time.time() - start_time
     
     input_chunk1 = serial_port.read(serial_port.in_waiting)
     time.sleep(0.005)
@@ -305,10 +321,10 @@ def calculate_sbs(serial_port : serial.Serial, sbs : Interval, intervals : Inter
 
     sleep_until_ms(target[1])
     
-    start_time = time.time()
+    #start_time = time.time()
     serial_port.write(read_request) # Set device in read mode
     curr_time2 = datetime.datetime.now(pytz.timezone('America/Chicago'))
-    read_latency2 = time.time() - start_time
+    #read_latency2 = time.time() - start_time
     
     input_chunk2 = serial_port.read(serial_port.in_waiting)
     time.sleep(0.01)
@@ -321,35 +337,35 @@ def calculate_sbs(serial_port : serial.Serial, sbs : Interval, intervals : Inter
     device_time1 = format_device_time(text1, curr_time1)
     difference1 = curr_time1 - device_time1
     if device_time1 > curr_time1: difference1 = device_time1 - curr_time1
-    first = [curr_time1, device_time1, difference1, read_latency1]
+    first = [curr_time1, device_time1, difference1, 0]
     
     text2 = input_chunk2.decode("Ascii")
     device_time2 = format_device_time(text2, curr_time2)
     difference2 = curr_time2 - device_time2
     if device_time2 > curr_time2: difference2 = device_time2 - curr_time2
-    second = [curr_time2, device_time2, difference2, read_latency2]
+    second = [curr_time2, device_time2, difference2, 0]
     
     if len(first) == 0 or len(second) == 0:
         device_reconnect_request(serial_port, "Reading fail")
         return calculate_sbs(serial_port, sbs, intervals, [])
     
     device_difference = (second[1] - first[1]).total_seconds()
+    difference_actual_seconds = curr_time2 - curr_time1
 
     print(first)
     print(second)
-    if device_difference > 1.0:
+    if device_difference > 1.0 or difference_actual_seconds.total_seconds() > 1.0:
         device_reconnect_request(serial_port, "Request took too long")
         return calculate_sbs(serial_port, sbs, intervals, [])
     
     num1 = (float)(first[0].microsecond) / 1000000.0
     num2 = (float)(second[0].microsecond) / 1000000.0
     print(num1, num2)
-    if validate != []: return float_equal(device_difference, 1)
-    sbs.next_check(num1, num2, float_equal(device_difference, 1))
+    if validate != []: return float_equal(device_difference, 1.0)
+    sbs.next_check(num1, num2, float_equal(device_difference, 1.0))
 
     if intervals == []: return sbs
     interval = []
-    difference_actual_seconds = curr_time2 - curr_time1
     if difference_actual_seconds.total_seconds() < 1.0:
         interval = [num1, num2]
     elif difference_actual_seconds.total_seconds() < 2.0:
@@ -367,6 +383,26 @@ def calculate_sbs(serial_port : serial.Serial, sbs : Interval, intervals : Inter
             intervals.intersection(interval)
         else:
             intervals.not_intersection([interval[1][1], interval[0][0]])
+
+    turnover = (num1 + num2) / 2.0
+    if float_equal(device_difference, 1.0):
+        print(turnover)
+
+    turnover *= 10**6
+    a = turnover
+    if curr_time1.microsecond < a:
+        a = 1000000 - (a - curr_time1.microsecond)
+    else:
+        a = curr_time1.microsecond - a
+    device_time1 = device_time1.replace(microsecond = round(a))
+    device_time1 = device_time1.replace(tzinfo=None)
+    curr_time1 = curr_time1.replace(tzinfo=None)
+    print()
+    print(get_battery_voltage(text1))
+    print(curr_time1)
+    print(device_time1)
+    print()
+
     print(intervals)
     return sbs
 
@@ -473,12 +509,14 @@ def calibrate(port_chosen : str):
     return
 
 if __name__ == '__main__':
+    print(calculate_register_from_ppm(254.8297432))
     while 1:
         print("\nEnter number to perform operation or Ctrl+C to exit:")
         print("1. Read time from device")
         print("2. Set time to device")
         print("3. Find subseconds")
         print("4. Calibration (TODO)")
+        print("5. Read time with turnover")
         option_chosen = (int)(input("Enter: "))
 
         if option_chosen == 1:
@@ -500,4 +538,22 @@ if __name__ == '__main__':
         if option_chosen == 4:
             port_chosen = chose_port()
             calibrate(port_chosen)
+        if option_chosen == 5:
+            a = (float)(input("Enter turnover point "))
+            a *= 10**6
+            port_chosen = chose_port()
+            result = connect_port(port_chosen, False)
+            print("Actual time: ", result[0])
+            print("Device time: ", result[1])
+            print("Difference: ", result[2])
+            print("It took: ", result[3], "to read time from the device")
+            actual = result[0]
+            if actual.microsecond < a:
+                a = 1000000 - (a - actual.microsecond)
+            else:
+                a = actual.microsecond - a
+            result[1] = result[1].replace(microsecond = round(a))
+            print("\nActual time: ", result[0])
+            print("Device time: ", result[1])
+            print("Difference: ", result[1] - result[0])
             

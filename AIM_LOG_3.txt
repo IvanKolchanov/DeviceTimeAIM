@@ -1,0 +1,856 @@
+Computer connected at: 24-06-20 17:12:23 
+
+Computer disconnected at: 24-06-21 13:31:39 
+
+Battery charger connected at: 24-09-11 10:25:06 
+
+Battery charger disconnected at: 24-09-11 15:36:28 
+
+Computer connected at: 24-09-12 16:34:59 
+
+Computer disconnected at: 24-09-12 16:35:09 
+
+Computer connected at: 24-09-12 16:35:11 
+
+Computer disconnected at: 24-09-12 16:35:16 
+
+Computer connected at: 24-09-12 16:35:17 
+
+Computer disconnected at: 24-09-12 16:35:24 
+
+Computer connected at: 24-09-12 16:35:26 
+
+Computer disconnected at: 24-09-12 16:35:32 
+
+Computer connected at: 24-09-12 16:35:34 
+
+Computer disconnected at: 24-09-12 16:35:39 
+
+Computer connected at: 24-09-12 16:35:42 
+
+Computer disconnected at: 24-09-12 16:35:46 
+
+Computer connected at: 24-09-12 16:35:49 
+
+Computer disconnected at: 24-09-12 16:35:53 
+
+Computer connected at: 24-09-12 16:35:55 
+
+Computer disconnected at: 24-09-12 16:36:01 
+
+Computer connected at: 24-09-12 16:36:03 
+
+Computer disconnected at: 24-09-12 16:36:07 
+
+Computer connected at: 24-09-12 16:36:09 
+
+Computer disconnected at: 24-09-12 16:36:15 
+
+Computer connected at: 24-09-12 16:36:16 
+
+Computer disconnected at: 24-09-12 16:36:22 
+
+Computer connected at: 24-09-12 16:36:23 
+
+Computer disconnected at: 24-09-12 16:36:27 
+
+Computer connected at: 24-09-12 16:36:29 
+
+Computer disconnected at: 24-09-12 16:36:34 
+
+Computer connected at: 24-09-12 16:36:36 
+
+Computer disconnected at: 24-09-12 16:36:40 
+
+Computer connected at: 24-09-12 16:36:43 
+
+Computer disconnected at: 24-09-12 16:36:48 
+
+Computer connected at: 24-09-12 16:36:50 
+
+Computer disconnected at: 24-09-12 16:36:54 
+
+Computer connected at: 24-09-12 16:36:56 
+
+Computer disconnected at: 24-09-12 16:37:47 
+
+Computer connected at: 24-09-12 17:53:38 
+
+Computer disconnected at: 24-09-12 17:53:46 
+
+Computer connected at: 24-09-12 17:53:48 
+
+Computer disconnected at: 24-09-12 17:53:52 
+
+Computer connected at: 24-09-12 17:53:54 
+
+Computer disconnected at: 24-09-12 17:53:58 
+
+Computer connected at: 24-09-12 17:54:01 
+
+Computer disconnected at: 24-09-12 17:54:04 
+
+Computer connected at: 24-09-12 17:54:06 
+
+Computer disconnected at: 24-09-12 17:54:10 
+
+Computer connected at: 24-09-12 17:54:12 
+
+Computer disconnected at: 24-09-12 17:54:16 
+
+Computer connected at: 24-09-12 17:54:18 
+
+Computer disconnected at: 24-09-12 17:54:22 
+
+Computer connected at: 24-09-12 17:54:25 
+
+Computer disconnected at: 24-09-12 17:54:29 
+
+Computer connected at: 24-09-12 17:54:31 
+
+Computer disconnected at: 24-09-12 17:54:35 
+
+Computer connected at: 24-09-12 17:54:37 
+
+Computer disconnected at: 24-09-12 17:54:42 
+
+Computer connected at: 24-09-12 17:54:43 
+
+Computer disconnected at: 24-09-12 17:54:49 
+
+Computer connected at: 24-09-12 17:54:51 
+
+Computer disconnected at: 24-09-12 17:54:57 
+
+Computer connected at: 24-09-12 17:55:00 
+
+Computer disconnected at: 24-09-12 17:55:58 
+
+Computer connected at: 24-09-12 19:10:25 
+
+Computer disconnected at: 24-09-12 19:10:46 
+
+Computer connected at: 24-09-12 19:10:47 
+
+Computer disconnected at: 24-09-12 19:10:58 
+
+Computer connected at: 24-09-12 19:10:59 
+
+Computer disconnected at: 24-09-12 19:11:03 
+
+Computer connected at: 24-09-12 19:11:04 
+
+Computer disconnected at: 24-09-12 19:11:09 
+
+Computer connected at: 24-09-12 19:11:10 
+
+Computer disconnected at: 24-09-12 19:11:14 
+
+Computer connected at: 24-09-12 19:11:16 
+
+Computer disconnected at: 24-09-12 19:11:19 
+
+Computer connected at: 24-09-12 19:11:21 
+
+Computer disconnected at: 24-09-12 19:11:25 
+
+Computer connected at: 24-09-12 19:11:26 
+
+Computer disconnected at: 24-09-12 19:11:30 
+
+Computer connected at: 24-09-12 19:11:32 
+
+Computer disconnected at: 24-09-12 19:11:35 
+
+Computer connected at: 24-09-12 19:11:36 
+
+Computer disconnected at: 24-09-12 19:11:41 
+
+Computer connected at: 24-09-12 19:11:42 
+
+Computer disconnected at: 24-09-12 19:11:46 
+
+Computer connected at: 24-09-12 19:11:48 
+
+Computer disconnected at: 24-09-12 19:12:26 
+
+Computer connected at: 24-09-12 20:11:55 
+
+Computer disconnected at: 24-09-12 20:12:09 
+
+Computer connected at: 24-09-12 20:12:10 
+
+Computer disconnected at: 24-09-12 20:12:13 
+
+Computer connected at: 24-09-12 20:12:15 
+
+Computer disconnected at: 24-09-12 20:12:20 
+
+Computer connected at: 24-09-12 20:12:21 
+
+Computer disconnected at: 24-09-12 20:12:24 
+
+Computer connected at: 24-09-12 20:12:25 
+
+Computer disconnected at: 24-09-12 20:12:29 
+
+Computer connected at: 24-09-12 20:12:30 
+
+Computer disconnected at: 24-09-12 20:12:33 
+
+Computer connected at: 24-09-12 20:12:34 
+
+Computer disconnected at: 24-09-12 20:12:38 
+
+Computer connected at: 24-09-12 20:12:39 
+
+Computer disconnected at: 24-09-12 20:12:43 
+
+Computer connected at: 24-09-12 20:12:44 
+
+Computer disconnected at: 24-09-12 20:12:48 
+
+Computer connected at: 24-09-12 20:12:50 
+
+Computer disconnected at: 24-09-12 20:12:54 
+
+Computer connected at: 24-09-12 20:12:56 
+
+Computer disconnected at: 24-09-12 20:13:00 
+
+Computer connected at: 24-09-12 20:13:02 
+
+Computer disconnected at: 24-09-12 20:13:06 
+
+Computer connected at: 24-09-12 20:13:08 
+
+Computer disconnected at: 24-09-12 20:13:56 
+
+Computer connected at: 24-09-13 00:53:43 
+
+Computer disconnected at: 24-09-13 00:53:52 
+
+Computer connected at: 24-09-13 00:53:53 
+
+Computer disconnected at: 24-09-13 00:53:58 
+
+Computer connected at: 24-09-13 00:53:59 
+
+Computer disconnected at: 24-09-13 00:54:03 
+
+Computer connected at: 24-09-13 00:54:03 
+
+Computer disconnected at: 24-09-13 00:54:06 
+
+Computer connected at: 24-09-13 00:54:07 
+
+Computer disconnected at: 24-09-13 00:54:12 
+
+Computer connected at: 24-09-13 00:54:12 
+
+Computer disconnected at: 24-09-13 00:54:17 
+
+Computer connected at: 24-09-13 00:54:17 
+
+Computer disconnected at: 24-09-13 00:54:22 
+
+Computer connected at: 24-09-13 00:54:23 
+
+Computer disconnected at: 24-09-13 00:54:27 
+
+Computer connected at: 24-09-13 00:54:28 
+
+Computer disconnected at: 24-09-13 00:54:45 
+
+Computer connected at: 24-09-13 00:54:45 
+
+Computer disconnected at: 24-09-13 00:54:50 
+
+Computer connected at: 24-09-13 00:54:51 
+
+Computer disconnected at: 24-09-13 00:54:54 
+
+Computer connected at: 24-09-13 00:54:55 
+
+Computer disconnected at: 24-09-13 00:55:00 
+
+Computer connected at: 24-09-13 00:55:01 
+
+Computer disconnected at: 24-09-13 00:55:06 
+
+Computer connected at: 24-09-13 00:55:07 
+
+Computer disconnected at: 24-09-13 00:55:10 
+
+Computer connected at: 24-09-13 00:55:11 
+
+Computer disconnected at: 24-09-13 00:55:15 
+
+Computer connected at: 24-09-13 00:55:16 
+
+Computer disconnected at: 24-09-13 00:55:20 
+
+Computer connected at: 24-09-13 00:55:23 
+
+Computer disconnected at: 24-09-13 00:55:27 
+
+Computer connected at: 24-09-13 00:55:29 
+
+Computer disconnected at: 24-09-13 00:55:35 
+
+Computer connected at: 24-09-13 00:55:37 
+
+Computer disconnected at: 24-09-13 00:55:43 
+
+Computer connected at: 24-09-13 00:55:46 
+
+Computer disconnected at: 24-09-13 00:56:57 
+
+Computer connected at: 24-09-13 11:11:57 
+
+Computer disconnected at: 24-09-13 11:12:09 
+
+Computer connected at: 24-09-13 11:12:11 
+
+Computer disconnected at: 24-09-13 11:12:21 
+
+Computer connected at: 24-09-13 11:12:24 
+
+Computer disconnected at: 24-09-13 11:12:29 
+
+Computer connected at: 24-09-13 11:12:31 
+
+Computer disconnected at: 24-09-13 11:12:36 
+
+Computer connected at: 24-09-13 11:12:38 
+
+Computer disconnected at: 24-09-13 11:12:45 
+
+Computer connected at: 24-09-13 11:12:46 
+
+Computer disconnected at: 24-09-13 11:12:52 
+
+Computer connected at: 24-09-13 11:12:55 
+
+Computer disconnected at: 24-09-13 11:13:01 
+
+Computer connected at: 24-09-13 11:13:03 
+
+Computer disconnected at: 24-09-13 11:13:09 
+
+Computer connected at: 24-09-13 11:13:11 
+
+Computer disconnected at: 24-09-13 11:13:16 
+
+Computer connected at: 24-09-13 11:13:20 
+
+Computer disconnected at: 24-09-13 11:14:07 
+
+Computer connected at: 24-09-13 12:55:21 
+
+Computer disconnected at: 24-09-13 12:55:30 
+
+Computer connected at: 24-09-13 12:55:33 
+
+Computer disconnected at: 24-09-13 12:55:39 
+
+Computer connected at: 24-09-13 12:55:41 
+
+Computer disconnected at: 24-09-13 12:55:45 
+
+Computer connected at: 24-09-13 12:55:47 
+
+Computer disconnected at: 24-09-13 12:55:51 
+
+Computer connected at: 24-09-13 12:55:53 
+
+Computer disconnected at: 24-09-13 12:55:56 
+
+Computer connected at: 24-09-13 12:55:58 
+
+Computer disconnected at: 24-09-13 12:56:02 
+
+Computer connected at: 24-09-13 12:56:05 
+
+Computer disconnected at: 24-09-13 12:56:18 
+
+Computer connected at: 24-09-13 12:56:19 
+
+Computer disconnected at: 24-09-13 12:56:32 
+
+Computer connected at: 24-09-13 12:56:34 
+
+Computer disconnected at: 24-09-13 12:56:38 
+
+Computer connected at: 24-09-13 12:56:40 
+
+Computer disconnected at: 24-09-13 12:56:45 
+
+Computer connected at: 24-09-13 12:56:47 
+
+Computer disconnected at: 24-09-13 12:56:51 
+
+Computer connected at: 24-09-13 12:56:53 
+
+Computer disconnected at: 24-09-13 12:56:56 
+
+Computer connected at: 24-09-13 12:56:58 
+
+Computer disconnected at: 24-09-13 12:57:03 
+
+Computer connected at: 24-09-13 12:57:04 
+
+Computer disconnected at: 24-09-13 12:57:07 
+
+Computer connected at: 24-09-13 12:57:08 
+
+Computer disconnected at: 24-09-13 12:57:12 
+
+Computer connected at: 24-09-13 12:57:13 
+
+Computer disconnected at: 24-09-13 12:57:17 
+
+Computer connected at: 24-09-13 12:57:18 
+
+Computer disconnected at: 24-09-13 12:57:22 
+
+Computer connected at: 24-09-13 12:57:23 
+
+Computer disconnected at: 24-09-13 12:57:28 
+
+Computer connected at: 24-09-13 12:57:30 
+
+Computer disconnected at: 24-09-13 12:58:10 
+
+Computer connected at: 24-09-13 13:58:24 
+
+Computer disconnected at: 24-09-13 13:58:33 
+
+Computer connected at: 24-09-13 13:58:34 
+
+Computer disconnected at: 24-09-13 13:58:40 
+
+Computer connected at: 24-09-13 13:58:42 
+
+Computer disconnected at: 24-09-13 13:58:48 
+
+Computer connected at: 24-09-13 13:58:49 
+
+Computer disconnected at: 24-09-13 13:58:52 
+
+Computer connected at: 24-09-13 13:58:53 
+
+Computer disconnected at: 24-09-13 13:58:56 
+
+Computer connected at: 24-09-13 13:58:58 
+
+Computer disconnected at: 24-09-13 13:59:02 
+
+Computer connected at: 24-09-13 13:59:03 
+
+Computer disconnected at: 24-09-13 13:59:07 
+
+Computer connected at: 24-09-13 13:59:09 
+
+Computer disconnected at: 24-09-13 13:59:12 
+
+Computer connected at: 24-09-13 13:59:14 
+
+Computer disconnected at: 24-09-13 13:59:18 
+
+Computer connected at: 24-09-13 13:59:20 
+
+Computer disconnected at: 24-09-13 13:59:24 
+
+Computer connected at: 24-09-13 13:59:25 
+
+Computer disconnected at: 24-09-13 13:59:30 
+
+Computer connected at: 24-09-13 13:59:31 
+
+Computer disconnected at: 24-09-13 14:00:01 
+
+Computer connected at: 24-09-13 17:34:06 
+
+Computer disconnected at: 24-09-13 17:34:12 
+
+Computer connected at: 24-09-13 17:34:12 
+
+Computer disconnected at: 24-09-13 17:34:16 
+
+Computer connected at: 24-09-13 17:34:17 
+
+Computer disconnected at: 24-09-13 17:34:20 
+
+Computer connected at: 24-09-13 17:34:21 
+
+Computer disconnected at: 24-09-13 17:34:24 
+
+Computer connected at: 24-09-13 17:34:25 
+
+Computer disconnected at: 24-09-13 17:34:28 
+
+Computer connected at: 24-09-13 17:34:29 
+
+Computer disconnected at: 24-09-13 17:34:32 
+
+Computer connected at: 24-09-13 17:34:33 
+
+Computer disconnected at: 24-09-13 17:34:37 
+
+Computer connected at: 24-09-13 17:34:38 
+
+Computer disconnected at: 24-09-13 17:34:41 
+
+Computer connected at: 24-09-13 17:34:42 
+
+Computer disconnected at: 24-09-13 17:34:45 
+
+Computer connected at: 24-09-13 17:34:46 
+
+Computer disconnected at: 24-09-13 17:34:48 
+
+Computer connected at: 24-09-13 17:34:50 
+
+Computer disconnected at: 24-09-13 17:34:56 
+
+Computer connected at: 24-09-13 17:34:56 
+
+Computer disconnected at: 24-09-13 17:35:31 
+
+Computer connected at: 24-09-14 13:38:17 
+
+Computer disconnected at: 24-09-14 13:38:32 
+
+Computer connected at: 24-09-14 13:38:33 
+
+Computer disconnected at: 24-09-14 13:38:38 
+
+Computer connected at: 24-09-14 13:38:40 
+
+Computer disconnected at: 24-09-14 13:38:44 
+
+Computer connected at: 24-09-14 13:38:47 
+
+Computer disconnected at: 24-09-14 13:38:51 
+
+Computer connected at: 24-09-14 13:38:53 
+
+Computer disconnected at: 24-09-14 13:38:56 
+
+Computer connected at: 24-09-14 13:38:58 
+
+Computer disconnected at: 24-09-14 13:39:01 
+
+Computer connected at: 24-09-14 13:39:03 
+
+Computer disconnected at: 24-09-14 13:39:07 
+
+Computer connected at: 24-09-14 13:39:09 
+
+Computer disconnected at: 24-09-14 13:39:12 
+
+Computer connected at: 24-09-14 13:39:14 
+
+Computer disconnected at: 24-09-14 13:39:18 
+
+Computer connected at: 24-09-14 13:39:20 
+
+Computer disconnected at: 24-09-14 13:39:25 
+
+Computer connected at: 24-09-14 13:39:26 
+
+Computer disconnected at: 24-09-14 13:39:35 
+
+Computer connected at: 24-09-14 14:15:02 
+
+Computer disconnected at: 24-09-14 14:15:41 
+
+Computer connected at: 24-09-14 14:15:44 
+
+Computer disconnected at: 24-09-14 14:16:23 
+
+Computer connected at: 24-09-14 14:16:25 
+
+Computer disconnected at: 24-09-14 14:28:07 
+
+Computer connected at: 24-09-14 15:42:22 
+
+Computer disconnected at: 24-09-14 15:42:34 
+
+Computer connected at: 24-09-14 15:42:36 
+
+Computer disconnected at: 24-09-14 15:42:40 
+
+Computer connected at: 24-09-14 15:42:41 
+
+Computer disconnected at: 24-09-14 15:42:46 
+
+Computer connected at: 24-09-14 15:42:47 
+
+Computer disconnected at: 24-09-14 15:42:50 
+
+Computer connected at: 24-09-14 15:42:52 
+
+Computer disconnected at: 24-09-14 15:42:55 
+
+Computer connected at: 24-09-14 15:42:57 
+
+Computer disconnected at: 24-09-14 15:43:00 
+
+Computer connected at: 24-09-14 15:43:02 
+
+Computer disconnected at: 24-09-14 15:43:07 
+
+Computer connected at: 24-09-14 15:43:08 
+
+Computer disconnected at: 24-09-14 15:43:11 
+
+Computer connected at: 24-09-14 15:43:13 
+
+Computer disconnected at: 24-09-14 15:43:17 
+
+Computer connected at: 24-09-14 15:43:18 
+
+Computer disconnected at: 24-09-14 15:43:21 
+
+Computer connected at: 24-09-14 15:43:23 
+
+Computer disconnected at: 24-09-14 15:43:26 
+
+Computer connected at: 24-09-14 15:43:28 
+
+Computer disconnected at: 24-09-14 15:43:34 
+
+Computer connected at: 24-09-14 15:43:35 
+
+Computer disconnected at: 24-09-14 15:45:17 
+
+Computer connected at: 24-09-15 02:00:29 
+
+Computer disconnected at: 24-09-15 02:00:37 
+
+Computer connected at: 24-09-15 02:00:38 
+
+Computer disconnected at: 24-09-15 02:00:42 
+
+Computer connected at: 24-09-15 02:00:43 
+
+Computer disconnected at: 24-09-15 02:00:48 
+
+Computer connected at: 24-09-15 02:00:49 
+
+Computer disconnected at: 24-09-15 02:00:53 
+
+Computer connected at: 24-09-15 02:00:54 
+
+Computer disconnected at: 24-09-15 02:00:58 
+
+Computer connected at: 24-09-15 02:01:00 
+
+Computer disconnected at: 24-09-15 02:01:04 
+
+Computer connected at: 24-09-15 02:01:06 
+
+Computer disconnected at: 24-09-15 02:01:10 
+
+Computer connected at: 24-09-15 02:01:13 
+
+Computer disconnected at: 24-09-15 02:01:20 
+
+Computer connected at: 24-09-15 02:01:21 
+
+Computer disconnected at: 24-09-15 02:01:28 
+
+Computer connected at: 24-09-15 02:01:30 
+
+Computer disconnected at: 24-09-15 02:01:33 
+
+Computer connected at: 24-09-15 02:01:35 
+
+Computer disconnected at: 24-09-15 02:01:39 
+
+Computer connected at: 24-09-15 02:01:42 
+
+Computer disconnected at: 24-09-15 02:01:47 
+
+Computer connected at: 24-09-15 02:01:49 
+
+Computer disconnected at: 24-09-15 02:03:04 
+
+Computer connected at: 24-09-15 12:45:52 
+
+Computer disconnected at: 24-09-15 12:46:11 
+
+Computer connected at: 24-09-15 12:46:12 
+
+Computer disconnected at: 24-09-15 12:46:15 
+
+Computer connected at: 24-09-15 12:46:16 
+
+Computer disconnected at: 24-09-15 12:46:19 
+
+Computer connected at: 24-09-15 12:46:20 
+
+Computer disconnected at: 24-09-15 12:46:22 
+
+Computer connected at: 24-09-15 12:46:24 
+
+Computer disconnected at: 24-09-15 12:46:27 
+
+Computer connected at: 24-09-15 12:46:28 
+
+Computer disconnected at: 24-09-15 12:46:32 
+
+Computer connected at: 24-09-15 12:46:33 
+
+Computer disconnected at: 24-09-15 12:46:39 
+
+Computer connected at: 24-09-15 12:46:40 
+
+Computer disconnected at: 24-09-15 12:46:44 
+
+Computer connected at: 24-09-15 12:46:45 
+
+Computer disconnected at: 24-09-15 12:46:50 
+
+Computer connected at: 24-09-15 12:46:50 
+
+Computer disconnected at: 24-09-15 12:46:54 
+
+Computer connected at: 24-09-15 12:46:55 
+
+Computer disconnected at: 24-09-15 12:46:59 
+
+Computer connected at: 24-09-15 12:47:01 
+
+Computer disconnected at: 24-09-15 12:47:04 
+
+Computer connected at: 24-09-15 12:47:05 
+
+Computer disconnected at: 24-09-15 12:47:09 
+
+Computer connected at: 24-09-15 12:47:10 
+
+Computer disconnected at: 24-09-15 12:47:14 
+
+Computer connected at: 24-09-15 12:47:16 
+
+Computer disconnected at: 24-09-15 12:47:20 
+
+Computer connected at: 24-09-15 12:47:22 
+
+Computer disconnected at: 24-09-15 12:47:25 
+
+Computer connected at: 24-09-15 12:47:27 
+
+Computer disconnected at: 24-09-15 12:47:31 
+
+Computer connected at: 24-09-15 12:47:32 
+
+Computer disconnected at: 24-09-15 12:47:36 
+
+Computer connected at: 24-09-15 12:47:38 
+
+Computer disconnected at: 24-09-15 12:48:36 
+
+Computer connected at: 24-09-15 22:56:55 
+
+Computer disconnected at: 24-09-15 22:57:02 
+
+Computer connected at: 24-09-15 22:57:04 
+
+Computer disconnected at: 24-09-15 22:57:08 
+
+Computer connected at: 24-09-15 22:57:13 
+
+Computer disconnected at: 24-09-15 22:57:17 
+
+Computer connected at: 24-09-15 22:57:18 
+
+Computer disconnected at: 24-09-15 22:57:27 
+
+Computer connected at: 24-09-15 22:57:29 
+
+Computer disconnected at: 24-09-15 22:57:38 
+
+Computer connected at: 24-09-15 22:57:39 
+
+Computer disconnected at: 24-09-15 22:57:43 
+
+Computer connected at: 24-09-15 22:57:45 
+
+Computer disconnected at: 24-09-15 22:57:49 
+
+Computer connected at: 24-09-15 22:57:50 
+
+Computer disconnected at: 24-09-15 22:57:54 
+
+Computer connected at: 24-09-15 22:57:56 
+
+Computer disconnected at: 24-09-15 22:57:59 
+
+Computer connected at: 24-09-15 22:58:01 
+
+Computer disconnected at: 24-09-15 22:58:05 
+
+Computer connected at: 24-09-15 22:58:07 
+
+Computer disconnected at: 24-09-15 22:58:11 
+
+Computer connected at: 24-09-15 22:58:12 
+
+Computer disconnected at: 24-09-15 22:58:30 
+
+Computer connected at: 24-09-15 22:58:32 
+
+Computer disconnected at: 24-09-15 22:58:39 
+
+Computer connected at: 24-09-15 22:58:41 
+
+Computer disconnected at: 24-09-15 22:58:45 
+
+Computer connected at: 24-09-15 22:58:46 
+
+Computer disconnected at: 24-09-15 22:58:51 
+
+Computer connected at: 24-09-15 22:58:52 
+
+Computer disconnected at: 24-09-15 22:58:56 
+
+Computer connected at: 24-09-15 22:58:58 
+
+Computer disconnected at: 24-09-15 22:59:01 
+
+Computer connected at: 24-09-15 22:59:03 
+
+Computer disconnected at: 24-09-15 22:59:06 
+
+Computer connected at: 24-09-15 22:59:07 
+
+Computer disconnected at: 24-09-15 22:59:11 
+
+Computer connected at: 24-09-15 22:59:13 
+
+Computer disconnected at: 24-09-15 22:59:16 
+
+Computer connected at: 24-09-15 22:59:18 
+
+Computer disconnected at: 24-09-15 22:59:22 
+
+Computer connected at: 24-09-15 22:59:24 
+
+Computer disconnected at: 24-09-15 22:59:28 
+
+Computer connected at: 24-09-15 22:59:30 
+
+Computer disconnected at: 24-09-15 22:59:35 
+
+Computer connected at: 24-09-15 22:59:36 
+
+Computer disconnected at: 24-09-15 23:01:14 
+
+Computer connected at: 24-09-16 11:29:22 
+
+Computer disconnected at: 24-09-16 11:29:41 
+

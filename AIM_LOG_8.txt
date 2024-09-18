@@ -1,0 +1,3762 @@
+Computer connected at: 23-04-10 12:17:52 
+
+Computer disconnected at: 23-04-10 12:19:40 
+
+Battery charger connected at: 23-05-16 11:19:20 
+
+Battery charger disconnected at: 23-05-16 11:21:32 
+
+Battery charger connected at: 23-07-12 14:37:46 
+
+Battery charger disconnected at: 23-07-12 15:18:17 
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "BROWNOUT_RESET (BOR)" stored at: 23-10-13 12:25:17 
+
+Last AIM State: 00 
+
+Battery charger connected at: 23-10-13 12:25:18 
+
+Battery charger disconnected at: 23-10-13 12:50:45 
+
+  Low battery occured at: 23-10-13 12:50:46 
+
+Battery charger connected at: 23-10-13 13:01:28 
+
+Battery charger disconnected at: 23-10-13 13:01:39 
+
+  Low battery occured at: 23-10-13 13:01:41 
+
+Computer connected at: 23-10-13 13:11:01 
+
+Computer disconnected at: 23-10-13 10:00:15 
+
+  Low battery occured at: 23-10-13 10:00:16 
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "EXTERNAL_RESET_PIN_RESET" stored at: 23-10-13 10:01:47 
+
+Last AIM State: 06 
+
+  Low battery occured at: 23-10-13 10:01:48 
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "EXTERNAL_RESET_PIN_RESET" stored at: 23-10-13 10:02:00 
+
+Last AIM State: 06 
+
+  Low battery occured at: 23-10-13 10:02:01 
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "EXTERNAL_RESET_PIN_RESET" stored at: 23-10-13 10:02:08 
+
+Last AIM State: 06 
+
+  Low battery occured at: 23-10-13 10:02:09 
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "EXTERNAL_RESET_PIN_RESET" stored at: 23-10-13 10:03:54 
+
+Last AIM State: 06 
+
+  Low battery occured at: 23-10-13 10:03:56 
+
+Battery charger connected at: 24-02-28 15:58:07 
+
+Battery charger disconnected at: 24-02-28 15:59:39 
+
+  Low battery occured at: 24-02-28 15:59:40 
+
+Battery charger connected at: 24-02-28 16:01:58 
+
+Battery charger disconnected at: 24-03-01 12:04:22 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-03-01 12:04:23 
+
+Battery charger connected at: 24-03-01 12:04:23 
+
+Battery charger disconnected at: 24-03-01 12:04:27 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-03-01 12:04:28 
+
+Computer connected at: 24-03-01 12:08:54 
+
+Computer disconnected at: 24-03-01 12:15:19 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-03-01 12:15:20 
+
+Computer connected at: 24-03-01 12:15:36 
+
+Computer disconnected at: 24-03-01 12:22:00 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-03-01 12:22:01 
+
+Computer connected at: 24-03-01 14:58:50 
+
+Computer disconnected at: 24-03-01 15:02:13 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-03-01 15:02:13 
+
+Computer connected at: 24-03-01 15:02:26 
+
+Computer disconnected at: 24-03-01 15:03:20 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-03-01 15:03:21 
+
+Computer connected at: 24-03-01 15:04:11 
+
+Computer disconnected at: 24-03-01 15:04:56 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-03-01 15:04:57 
+
+Computer connected at: 24-03-01 15:06:45 
+
+Computer disconnected at: 24-03-01 15:12:51 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-03-01 15:12:52 
+
+Battery charger connected at: 24-03-05 12:16:25 
+
+Battery charger disconnected at: 24-03-05 12:17:39 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-03-05 12:17:40 
+
+Battery charger connected at: 24-03-05 12:18:01 
+
+Battery charger disconnected at: 24-03-05 12:18:06 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-03-05 12:18:07 
+
+Battery charger connected at: 24-03-05 12:20:03 
+
+Battery charger disconnected at: 24-03-05 12:20:07 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-03-05 12:20:08 
+
+Computer connected at: 24-03-05 12:32:21 
+
+Computer disconnected at: 24-03-05 13:44:56 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-03-05 13:44:56 
+
+Battery charger connected at: 24-03-05 13:45:09 
+
+Battery charger disconnected at: 24-03-05 13:45:19 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-03-05 13:45:20 
+
+Battery charger connected at: 24-03-05 13:45:28 
+
+Battery charger disconnected at: 24-03-05 13:45:33 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-03-05 13:45:34 
+
+Battery charger connected at: 24-03-05 13:45:43 
+
+Battery charger disconnected at: 24-03-05 13:45:48 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-03-05 13:45:49 
+
+Computer connected at: 24-03-05 13:46:55 
+
+Computer disconnected at: 24-03-05 13:47:16 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-03-05 13:47:17 
+
+Computer connected at: 24-03-05 13:48:59 
+
+Computer disconnected at: 24-03-05 13:50:13 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-03-05 13:50:14 
+
+Computer connected at: 24-03-05 13:50:17 
+
+Computer disconnected at: 24-03-05 12:02:04 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: AIM000021
+Module: Module 11
+Start date: 2024-03-05 00:00:00
+End date: 2024-03-12 23:59:59
+	Data collection starts at: 24-03-05 12:02:05 
+
+Computer connected at: 24-03-05 12:03:19 
+
+Computer disconnected at: 24-03-05 12:04:10 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: AIM000021
+Module: Module 11
+Start date: 2024-03-05 00:00:00
+End date: 2024-03-12 23:59:59
+	Data collection starts at: 24-03-05 12:04:11 
+
+Computer connected at: 24-03-05 12:04:36 
+
+Computer disconnected at: 24-03-05 12:06:25 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: AIM000021
+Module: Module 11
+Start date: 2024-03-05 00:00:00
+End date: 2024-03-12 23:59:59
+	Data collection starts at: 24-03-05 12:06:25 
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "EXTERNAL_RESET_PIN_RESET" stored at: 24-03-05 12:08:14 
+
+Last AIM State: 01 
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-03-05 12:08:21 
+
+Last AIM State: 01 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-03-05 12:08:28 
+
+Last AIM State: 01 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-03-05 12:08:35 
+
+Last AIM State: 01 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-03-05 12:08:42 
+
+Last AIM State: 01 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-03-05 12:08:49 
+
+Last AIM State: 01 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-03-05 12:08:56 
+
+Last AIM State: 01 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-03-05 12:09:03 
+
+Last AIM State: 01 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-03-05 12:09:10 
+
+Last AIM State: 01 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-03-05 12:09:17 
+
+Last AIM State: 01 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-03-05 12:09:24 
+
+Last AIM State: 01 
+
+	Reset For IMU Init Failure.
+
+Multiple IMU Init failed: 24-03-05 12:09:27 
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "EXTERNAL_RESET_PIN_RESET" stored at: 24-03-05 12:10:04 
+
+Last AIM State: 09 
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-03-05 12:10:11 
+
+Last AIM State: 09 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-03-05 12:10:18 
+
+Last AIM State: 09 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-03-05 12:10:25 
+
+Last AIM State: 09 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-03-05 12:10:32 
+
+Last AIM State: 09 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-03-05 12:10:39 
+
+Last AIM State: 09 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-03-05 12:10:46 
+
+Last AIM State: 09 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-03-05 12:10:53 
+
+Last AIM State: 09 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "EXTERNAL_RESET_PIN_RESET" stored at: 24-03-05 12:11:06 
+
+Last AIM State: 09 
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "EXTERNAL_RESET_PIN_RESET" stored at: 24-03-05 12:11:18 
+
+Last AIM State: 09 
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-03-05 12:11:25 
+
+Last AIM State: 09 
+
+	Reset For IMU Init Failure.
+
+Multiple IMU Init failed: 24-03-05 12:11:27 
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "BROWNOUT_RESET (BOR)" stored at: 24-03-26 09:00:14 
+
+Last AIM State: 00 
+
+Battery charger connected at: 24-03-26 09:00:14 
+
+Battery charger disconnected at: 24-03-26 09:28:52 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-03-26 09:28:52 
+
+Computer connected at: 24-03-26 09:29:07 
+
+Computer disconnected at: 24-03-26 10:22:32 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: AIM728384
+Module: Module 14
+Start date: 2024-03-26 00:00:00
+End date: 2024-04-02 23:59:59
+	Data collection starts at: 24-03-26 10:22:33 
+
+  Low battery occured at: 24-03-26 20:35:23 
+
+Battery charger connected at: 24-03-27 00:43:11 
+
+Battery charger disconnected at: 24-03-27 07:20:06 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: AIM728384
+Module: Module 14
+Start date: 2024-03-26 00:00:00
+End date: 2024-04-02 23:59:59
+	Data collection starts at: 24-03-27 07:20:07 
+
+Battery charger connected at: 24-03-27 22:49:53 
+
+Battery charger disconnected at: 24-03-28 06:31:03 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: AIM728384
+Module: Module 14
+Start date: 2024-03-26 00:00:00
+End date: 2024-04-02 23:59:59
+	Data collection starts at: 24-03-28 06:31:04 
+
+Battery charger connected at: 24-03-28 22:50:58 
+
+Battery charger disconnected at: 24-03-29 06:55:21 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: AIM728384
+Module: Module 14
+Start date: 2024-03-26 00:00:00
+End date: 2024-04-02 23:59:59
+	Data collection starts at: 24-03-29 06:55:22 
+
+Battery charger connected at: 24-03-29 21:38:47 
+
+Battery charger disconnected at: 24-03-30 07:21:33 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: AIM728384
+Module: Module 14
+Start date: 2024-03-26 00:00:00
+End date: 2024-04-02 23:59:59
+	Data collection starts at: 24-03-30 07:21:34 
+
+Battery charger connected at: 24-03-31 00:04:08 
+
+Battery charger disconnected at: 24-03-31 07:38:02 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: AIM728384
+Module: Module 14
+Start date: 2024-03-26 00:00:00
+End date: 2024-04-02 23:59:59
+	Data collection starts at: 24-03-31 07:38:03 
+
+Battery charger connected at: 24-03-31 22:16:05 
+
+Battery charger disconnected at: 24-04-01 07:36:41 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: AIM728384
+Module: Module 14
+Start date: 2024-03-26 00:00:00
+End date: 2024-04-02 23:59:59
+	Data collection starts at: 24-04-01 07:36:42 
+
+Battery charger connected at: 24-04-01 22:53:05 
+
+Battery charger disconnected at: 24-04-02 07:25:27 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: AIM728384
+Module: Module 14
+Start date: 2024-03-26 00:00:00
+End date: 2024-04-02 23:59:59
+	Data collection starts at: 24-04-02 07:25:28 
+
+  Low battery occured at: 24-04-17 19:39:23 
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "BROWNOUT_RESET (BOR)" stored at: 24-06-21 12:02:50 
+
+Last AIM State: 00 
+
+Battery charger connected at: 24-06-21 12:02:50 
+
+Battery charger disconnected at: 24-06-21 16:13:18 
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-06-21 16:13:24 
+
+Last AIM State: 05 
+
+	Reset For IMU Init Failure.
+
+Computer connected at: 24-06-21 16:13:24 
+
+Computer disconnected at: 24-06-21 16:13:26 
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-06-21 16:13:32 
+
+Last AIM State: 05 
+
+	Reset For IMU Init Failure.
+
+Computer connected at: 24-06-21 16:13:32 
+
+Computer disconnected at: 24-06-21 16:13:46 
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-06-21 16:13:52 
+
+Last AIM State: 05 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-06-21 16:13:59 
+
+Last AIM State: 05 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-06-21 16:14:06 
+
+Last AIM State: 05 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-06-21 16:14:13 
+
+Last AIM State: 05 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-06-21 16:14:20 
+
+Last AIM State: 05 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-06-21 16:14:27 
+
+Last AIM State: 05 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-06-21 16:14:34 
+
+Last AIM State: 05 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-06-21 16:14:41 
+
+Last AIM State: 05 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-06-21 16:14:48 
+
+Last AIM State: 05 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-06-21 16:14:55 
+
+Last AIM State: 05 
+
+	Reset For IMU Init Failure.
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "SOFTWARE_RESET" stored at: 24-06-21 16:15:02 
+
+Last AIM State: 05 
+
+	Reset For IMU Init Failure.
+
+Multiple IMU Init failed: 24-06-21 16:15:04 
+
+	AIM firmware: Apr  3 2023 09:42:58
+
+	The system reset cause is "BROWNOUT_RESET (BOR)" stored at: 24-09-11 08:55:33 
+
+Last AIM State: 00 
+
+Battery charger connected at: 24-09-11 08:55:33 
+
+Battery charger disconnected at: 24-09-11 14:06:36 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-11 14:06:37 
+
+Computer connected at: 24-09-12 14:50:34 
+
+Computer disconnected at: 24-09-12 14:51:15 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 14:51:15 
+
+Computer connected at: 24-09-12 14:51:16 
+
+Computer disconnected at: 24-09-12 14:51:40 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 14:51:41 
+
+Computer connected at: 24-09-12 14:51:49 
+
+Computer disconnected at: 24-09-12 14:51:59 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 14:51:59 
+
+Computer connected at: 24-09-12 14:52:04 
+
+Computer disconnected at: 24-09-12 14:52:10 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 14:52:11 
+
+Computer connected at: 24-09-12 14:52:16 
+
+Computer disconnected at: 24-09-12 14:52:21 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 14:52:22 
+
+Computer connected at: 24-09-12 14:52:28 
+
+Computer disconnected at: 24-09-12 14:52:34 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 14:52:35 
+
+Computer connected at: 24-09-12 14:52:40 
+
+Computer disconnected at: 24-09-12 14:52:46 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 14:52:47 
+
+Computer connected at: 24-09-12 14:52:55 
+
+Computer disconnected at: 24-09-12 14:53:00 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 14:53:00 
+
+Computer connected at: 24-09-12 14:53:04 
+
+Computer disconnected at: 24-09-12 14:53:09 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 14:53:10 
+
+Computer connected at: 24-09-12 14:53:13 
+
+Computer disconnected at: 24-09-12 14:53:18 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 14:53:19 
+
+Computer connected at: 24-09-12 14:53:23 
+
+Computer disconnected at: 24-09-12 14:53:28 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 14:53:29 
+
+Computer connected at: 24-09-12 14:53:33 
+
+Computer disconnected at: 24-09-12 14:53:40 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 14:53:40 
+
+Computer connected at: 24-09-12 14:53:44 
+
+Computer disconnected at: 24-09-12 14:53:52 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 14:53:53 
+
+Computer connected at: 24-09-12 14:53:56 
+
+Computer disconnected at: 24-09-12 14:54:04 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 14:54:04 
+
+Computer connected at: 24-09-12 14:54:07 
+
+Computer disconnected at: 24-09-12 14:56:09 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 14:56:09 
+
+Computer connected at: 24-09-12 16:43:21 
+
+Computer disconnected at: 24-09-12 16:43:29 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 16:43:30 
+
+Computer connected at: 24-09-12 16:43:32 
+
+Computer disconnected at: 24-09-12 16:43:37 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 16:43:38 
+
+Computer connected at: 24-09-12 16:43:40 
+
+Computer disconnected at: 24-09-12 16:43:47 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 16:43:47 
+
+Computer connected at: 24-09-12 16:43:49 
+
+Computer disconnected at: 24-09-12 16:43:56 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 16:43:56 
+
+Computer connected at: 24-09-12 16:43:58 
+
+Computer disconnected at: 24-09-12 16:44:04 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 16:44:04 
+
+Computer connected at: 24-09-12 16:44:07 
+
+Computer disconnected at: 24-09-12 16:44:13 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 16:44:13 
+
+Computer connected at: 24-09-12 16:44:17 
+
+Computer disconnected at: 24-09-12 16:44:22 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 16:44:23 
+
+Computer connected at: 24-09-12 16:44:25 
+
+Computer disconnected at: 24-09-12 16:44:31 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 16:44:32 
+
+Computer connected at: 24-09-12 16:44:35 
+
+Computer disconnected at: 24-09-12 16:44:41 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 16:44:42 
+
+Computer connected at: 24-09-12 16:44:45 
+
+Computer disconnected at: 24-09-12 16:44:53 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 16:44:54 
+
+Computer connected at: 24-09-12 16:44:57 
+
+Computer disconnected at: 24-09-12 16:45:03 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 16:45:04 
+
+Computer connected at: 24-09-12 16:45:07 
+
+Computer disconnected at: 24-09-12 16:45:14 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 16:45:15 
+
+Computer connected at: 24-09-12 16:45:18 
+
+Computer disconnected at: 24-09-12 16:45:26 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 16:45:27 
+
+Computer connected at: 24-09-12 16:45:30 
+
+Computer disconnected at: 24-09-12 16:45:37 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 16:45:38 
+
+Computer connected at: 24-09-12 16:45:41 
+
+Computer disconnected at: 24-09-12 17:02:50 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:02:51 
+
+Computer connected at: 24-09-12 17:54:36 
+
+Computer disconnected at: 24-09-12 17:54:49 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:54:49 
+
+Computer connected at: 24-09-12 17:54:50 
+
+Computer disconnected at: 24-09-12 17:54:56 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:54:56 
+
+Computer connected at: 24-09-12 17:54:58 
+
+Computer disconnected at: 24-09-12 17:55:03 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:55:04 
+
+Computer connected at: 24-09-12 17:55:07 
+
+Computer disconnected at: 24-09-12 17:55:13 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:55:14 
+
+Computer connected at: 24-09-12 17:55:15 
+
+Computer disconnected at: 24-09-12 17:55:22 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:55:22 
+
+Computer connected at: 24-09-12 17:55:26 
+
+Computer disconnected at: 24-09-12 17:55:32 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:55:33 
+
+Computer connected at: 24-09-12 17:55:35 
+
+Computer disconnected at: 24-09-12 17:55:41 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:55:42 
+
+Computer connected at: 24-09-12 17:55:45 
+
+Computer disconnected at: 24-09-12 17:55:51 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:55:52 
+
+Computer connected at: 24-09-12 17:55:54 
+
+Computer disconnected at: 24-09-12 17:56:01 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:56:02 
+
+Computer connected at: 24-09-12 17:56:04 
+
+Computer disconnected at: 24-09-12 17:56:10 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:56:11 
+
+Computer connected at: 24-09-12 17:56:15 
+
+Computer disconnected at: 24-09-12 17:56:41 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:56:41 
+
+Computer connected at: 24-09-12 17:56:43 
+
+Computer disconnected at: 24-09-12 17:56:52 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:56:52 
+
+Computer connected at: 24-09-12 17:56:53 
+
+Computer disconnected at: 24-09-12 17:56:59 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:57:00 
+
+Computer connected at: 24-09-12 17:57:02 
+
+Computer disconnected at: 24-09-12 17:57:09 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:57:10 
+
+Computer connected at: 24-09-12 17:57:11 
+
+Computer disconnected at: 24-09-12 17:57:18 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:57:18 
+
+Computer connected at: 24-09-12 17:57:21 
+
+Computer disconnected at: 24-09-12 17:57:27 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:57:28 
+
+Computer connected at: 24-09-12 17:57:30 
+
+Computer disconnected at: 24-09-12 17:57:37 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:57:37 
+
+Computer connected at: 24-09-12 17:57:40 
+
+Computer disconnected at: 24-09-12 17:57:46 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:57:47 
+
+Computer connected at: 24-09-12 17:57:49 
+
+Computer disconnected at: 24-09-12 17:57:54 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:57:55 
+
+Computer connected at: 24-09-12 17:57:58 
+
+Computer disconnected at: 24-09-12 17:58:05 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:58:05 
+
+Computer connected at: 24-09-12 17:58:07 
+
+Computer disconnected at: 24-09-12 17:58:13 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 17:58:14 
+
+Computer connected at: 24-09-12 17:58:16 
+
+Computer disconnected at: 24-09-12 18:41:08 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 18:41:09 
+
+Computer connected at: 24-09-12 18:57:43 
+
+Computer disconnected at: 24-09-12 18:57:54 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 18:57:55 
+
+Computer connected at: 24-09-12 18:57:57 
+
+Computer disconnected at: 24-09-12 18:58:03 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 18:58:04 
+
+Computer connected at: 24-09-12 18:58:07 
+
+Computer disconnected at: 24-09-12 18:58:13 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 18:58:14 
+
+Computer connected at: 24-09-12 18:58:16 
+
+Computer disconnected at: 24-09-12 18:58:23 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 18:58:23 
+
+Computer connected at: 24-09-12 18:58:26 
+
+Computer disconnected at: 24-09-12 18:58:32 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 18:58:33 
+
+Computer connected at: 24-09-12 18:58:36 
+
+Computer disconnected at: 24-09-12 18:58:44 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 18:58:45 
+
+Computer connected at: 24-09-12 18:58:47 
+
+Computer disconnected at: 24-09-12 18:58:54 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 18:58:55 
+
+Computer connected at: 24-09-12 18:58:59 
+
+Computer disconnected at: 24-09-12 18:59:07 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 18:59:08 
+
+Computer connected at: 24-09-12 18:59:12 
+
+Computer disconnected at: 24-09-12 18:59:21 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 18:59:22 
+
+Computer connected at: 24-09-12 18:59:26 
+
+Computer disconnected at: 24-09-12 19:00:17 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 19:00:18 
+
+Computer connected at: 24-09-12 23:41:12 
+
+Computer disconnected at: 24-09-12 23:41:18 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 23:41:19 
+
+Computer connected at: 24-09-12 23:41:21 
+
+Computer disconnected at: 24-09-12 23:41:28 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 23:41:28 
+
+Computer connected at: 24-09-12 23:41:31 
+
+Computer disconnected at: 24-09-12 23:41:38 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 23:41:39 
+
+Computer connected at: 24-09-12 23:41:41 
+
+Computer disconnected at: 24-09-12 23:41:48 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 23:41:48 
+
+Computer connected at: 24-09-12 23:41:51 
+
+Computer disconnected at: 24-09-12 23:42:01 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 23:42:01 
+
+Computer connected at: 24-09-12 23:42:05 
+
+Computer disconnected at: 24-09-12 23:42:11 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 23:42:12 
+
+Computer connected at: 24-09-12 23:42:16 
+
+Computer disconnected at: 24-09-12 23:42:24 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 23:42:25 
+
+Computer connected at: 24-09-12 23:42:29 
+
+Computer disconnected at: 24-09-12 23:42:41 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 23:42:41 
+
+Computer connected at: 24-09-12 23:42:44 
+
+Computer disconnected at: 24-09-12 23:42:51 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 23:42:52 
+
+Computer connected at: 24-09-12 23:42:55 
+
+Computer disconnected at: 24-09-12 23:43:02 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 23:43:03 
+
+Computer connected at: 24-09-12 23:43:06 
+
+Computer disconnected at: 24-09-12 23:43:13 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 23:43:14 
+
+Computer connected at: 24-09-12 23:43:16 
+
+Computer disconnected at: 24-09-12 23:44:06 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-12 23:44:06 
+
+Computer connected at: 24-09-13 09:55:14 
+
+Computer disconnected at: 24-09-13 09:55:21 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 09:55:21 
+
+Computer connected at: 24-09-13 09:55:25 
+
+Computer disconnected at: 24-09-13 09:55:33 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 09:55:33 
+
+Computer connected at: 24-09-13 09:55:37 
+
+Computer disconnected at: 24-09-13 09:55:43 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 09:55:44 
+
+Computer connected at: 24-09-13 09:55:47 
+
+Computer disconnected at: 24-09-13 09:55:56 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 09:55:57 
+
+Computer connected at: 24-09-13 09:56:01 
+
+Computer disconnected at: 24-09-13 09:56:06 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 09:56:07 
+
+Computer connected at: 24-09-13 09:56:11 
+
+Computer disconnected at: 24-09-13 09:56:17 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 09:56:18 
+
+Computer connected at: 24-09-13 09:56:19 
+
+Computer disconnected at: 24-09-13 09:56:32 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 09:56:33 
+
+Computer connected at: 24-09-13 09:56:38 
+
+Computer disconnected at: 24-09-13 09:56:45 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 09:56:46 
+
+Computer connected at: 24-09-13 09:56:48 
+
+Computer disconnected at: 24-09-13 09:56:57 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 09:56:58 
+
+Computer connected at: 24-09-13 09:56:59 
+
+Computer disconnected at: 24-09-13 09:57:06 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 09:57:06 
+
+Computer connected at: 24-09-13 09:57:08 
+
+Computer disconnected at: 24-09-13 09:57:17 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 09:57:17 
+
+Computer connected at: 24-09-13 09:57:22 
+
+Computer disconnected at: 24-09-13 11:05:52 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:05:53 
+
+Computer connected at: 24-09-13 11:05:55 
+
+Computer disconnected at: 24-09-13 11:06:12 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:06:13 
+
+Computer connected at: 24-09-13 11:06:15 
+
+Computer disconnected at: 24-09-13 11:06:23 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:06:24 
+
+Computer connected at: 24-09-13 11:06:25 
+
+Computer disconnected at: 24-09-13 11:06:33 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:06:33 
+
+Computer connected at: 24-09-13 11:06:36 
+
+Computer disconnected at: 24-09-13 11:06:41 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:06:42 
+
+Computer connected at: 24-09-13 11:06:43 
+
+Computer disconnected at: 24-09-13 11:06:50 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:06:51 
+
+Computer connected at: 24-09-13 11:06:54 
+
+Computer disconnected at: 24-09-13 11:06:59 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:07:00 
+
+Computer connected at: 24-09-13 11:07:01 
+
+Computer disconnected at: 24-09-13 11:07:08 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:07:08 
+
+Computer connected at: 24-09-13 11:07:10 
+
+Computer disconnected at: 24-09-13 11:07:16 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:07:17 
+
+Computer connected at: 24-09-13 11:07:21 
+
+Computer disconnected at: 24-09-13 11:07:36 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:07:37 
+
+Computer connected at: 24-09-13 11:07:38 
+
+Computer disconnected at: 24-09-13 11:07:45 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:07:46 
+
+Computer connected at: 24-09-13 11:07:48 
+
+Computer disconnected at: 24-09-13 11:07:57 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:07:57 
+
+Computer connected at: 24-09-13 11:07:59 
+
+Computer disconnected at: 24-09-13 11:08:14 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:08:15 
+
+Computer connected at: 24-09-13 11:08:16 
+
+Computer disconnected at: 24-09-13 11:08:24 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:08:25 
+
+Computer connected at: 24-09-13 11:08:25 
+
+Computer disconnected at: 24-09-13 11:08:31 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:08:32 
+
+Computer connected at: 24-09-13 11:08:34 
+
+Computer disconnected at: 24-09-13 11:08:39 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:08:39 
+
+Computer connected at: 24-09-13 11:08:41 
+
+Computer disconnected at: 24-09-13 11:08:48 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:08:48 
+
+Computer connected at: 24-09-13 11:08:50 
+
+Computer disconnected at: 24-09-13 11:08:55 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:08:56 
+
+Computer connected at: 24-09-13 11:08:58 
+
+Computer disconnected at: 24-09-13 11:09:04 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:09:05 
+
+Computer connected at: 24-09-13 11:09:06 
+
+Computer disconnected at: 24-09-13 11:09:12 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:09:13 
+
+Computer connected at: 24-09-13 11:09:14 
+
+Computer disconnected at: 24-09-13 11:09:20 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:09:21 
+
+Computer connected at: 24-09-13 11:09:23 
+
+Computer disconnected at: 24-09-13 11:09:28 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:09:29 
+
+Computer connected at: 24-09-13 11:09:31 
+
+Computer disconnected at: 24-09-13 11:09:38 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:09:39 
+
+Computer connected at: 24-09-13 11:09:41 
+
+Computer disconnected at: 24-09-13 11:09:48 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:09:49 
+
+Computer connected at: 24-09-13 11:09:51 
+
+Computer disconnected at: 24-09-13 11:10:59 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 11:11:00 
+
+Computer connected at: 24-09-13 12:06:20 
+
+Computer disconnected at: 24-09-13 12:06:41 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 12:06:42 
+
+Computer connected at: 24-09-13 12:06:43 
+
+Computer disconnected at: 24-09-13 12:06:49 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 12:06:50 
+
+Computer connected at: 24-09-13 12:06:50 
+
+Computer disconnected at: 24-09-13 12:06:59 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 12:06:59 
+
+Computer connected at: 24-09-13 12:07:01 
+
+Computer disconnected at: 24-09-13 12:07:08 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 12:07:09 
+
+Computer connected at: 24-09-13 12:07:10 
+
+Computer disconnected at: 24-09-13 12:07:42 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 12:07:43 
+
+Computer connected at: 24-09-13 12:07:45 
+
+Computer disconnected at: 24-09-13 12:07:50 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 12:07:51 
+
+Computer connected at: 24-09-13 12:07:51 
+
+Computer disconnected at: 24-09-13 12:07:57 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 12:07:58 
+
+Computer connected at: 24-09-13 12:07:59 
+
+Computer disconnected at: 24-09-13 12:08:04 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 12:08:04 
+
+Computer connected at: 24-09-13 12:08:06 
+
+Computer disconnected at: 24-09-13 12:08:10 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 12:08:11 
+
+Computer connected at: 24-09-13 12:08:12 
+
+Computer disconnected at: 24-09-13 12:08:35 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 12:08:36 
+
+Computer connected at: 24-09-13 12:08:37 
+
+Computer disconnected at: 24-09-13 12:09:46 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 12:09:47 
+
+Computer connected at: 24-09-13 15:53:58 
+
+Computer disconnected at: 24-09-13 15:54:16 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 15:54:17 
+
+Computer connected at: 24-09-13 15:54:19 
+
+Computer disconnected at: 24-09-13 15:54:27 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 15:54:28 
+
+Computer connected at: 24-09-13 15:54:30 
+
+Computer disconnected at: 24-09-13 15:54:36 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 15:54:37 
+
+Computer connected at: 24-09-13 15:54:38 
+
+Computer disconnected at: 24-09-13 15:54:45 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 15:54:45 
+
+Computer connected at: 24-09-13 15:54:47 
+
+Computer disconnected at: 24-09-13 15:54:53 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 15:54:54 
+
+Computer connected at: 24-09-13 15:54:55 
+
+Computer disconnected at: 24-09-13 15:55:05 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 15:55:06 
+
+Computer connected at: 24-09-13 15:55:09 
+
+Computer disconnected at: 24-09-13 15:55:19 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 15:55:20 
+
+Computer connected at: 24-09-13 15:55:22 
+
+Computer disconnected at: 24-09-13 15:55:31 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 15:55:32 
+
+Computer connected at: 24-09-13 15:55:35 
+
+Computer disconnected at: 24-09-13 15:55:42 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 15:55:43 
+
+Computer connected at: 24-09-13 15:55:46 
+
+Computer disconnected at: 24-09-13 15:55:53 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 15:55:53 
+
+Computer connected at: 24-09-13 15:55:56 
+
+Computer disconnected at: 24-09-13 15:56:04 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 15:56:04 
+
+Computer connected at: 24-09-13 15:56:06 
+
+Computer disconnected at: 24-09-13 15:56:12 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 15:56:13 
+
+Computer connected at: 24-09-13 15:56:15 
+
+Computer disconnected at: 24-09-13 15:56:21 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 15:56:22 
+
+Computer connected at: 24-09-13 15:56:24 
+
+Computer disconnected at: 24-09-13 15:56:33 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 15:56:33 
+
+Computer connected at: 24-09-13 15:56:36 
+
+Computer disconnected at: 24-09-13 15:56:42 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 15:56:43 
+
+Computer connected at: 24-09-13 15:56:45 
+
+Computer disconnected at: 24-09-13 15:56:53 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 15:56:54 
+
+Computer connected at: 24-09-13 15:56:57 
+
+Computer disconnected at: 24-09-13 15:57:04 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 15:57:05 
+
+Computer connected at: 24-09-13 15:57:08 
+
+Computer disconnected at: 24-09-13 15:57:16 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 15:57:17 
+
+Computer connected at: 24-09-13 15:57:18 
+
+Computer disconnected at: 24-09-13 15:57:49 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-13 15:57:50 
+
+Computer connected at: 24-09-14 11:51:18 
+
+Computer disconnected at: 24-09-14 11:51:35 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:51:36 
+
+Computer connected at: 24-09-14 11:51:36 
+
+Computer disconnected at: 24-09-14 11:51:45 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:51:45 
+
+Computer connected at: 24-09-14 11:51:46 
+
+Computer disconnected at: 24-09-14 11:51:51 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:51:52 
+
+Computer connected at: 24-09-14 11:51:53 
+
+Computer disconnected at: 24-09-14 11:51:59 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:51:59 
+
+Computer connected at: 24-09-14 11:52:01 
+
+Computer disconnected at: 24-09-14 11:52:05 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:52:06 
+
+Computer connected at: 24-09-14 11:52:07 
+
+Computer disconnected at: 24-09-14 11:52:10 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:52:11 
+
+Computer connected at: 24-09-14 11:52:13 
+
+Computer disconnected at: 24-09-14 11:52:16 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:52:17 
+
+Computer connected at: 24-09-14 11:52:18 
+
+Computer disconnected at: 24-09-14 11:52:21 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:52:22 
+
+Computer connected at: 24-09-14 11:52:22 
+
+Computer disconnected at: 24-09-14 11:52:27 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:52:27 
+
+Computer connected at: 24-09-14 11:52:28 
+
+Computer disconnected at: 24-09-14 11:52:32 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:52:33 
+
+Computer connected at: 24-09-14 11:52:34 
+
+Computer disconnected at: 24-09-14 11:52:38 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:52:39 
+
+Computer connected at: 24-09-14 11:52:40 
+
+Computer disconnected at: 24-09-14 11:52:56 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:52:57 
+
+Computer connected at: 24-09-14 11:53:03 
+
+Computer disconnected at: 24-09-14 11:53:13 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:53:14 
+
+Computer connected at: 24-09-14 11:53:15 
+
+Computer disconnected at: 24-09-14 11:53:22 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:53:22 
+
+Computer connected at: 24-09-14 11:53:24 
+
+Computer disconnected at: 24-09-14 11:53:33 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:53:33 
+
+Computer connected at: 24-09-14 11:53:37 
+
+Computer disconnected at: 24-09-14 11:53:43 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:53:44 
+
+Computer connected at: 24-09-14 11:53:46 
+
+Computer disconnected at: 24-09-14 11:54:26 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:54:27 
+
+Computer connected at: 24-09-14 11:54:28 
+
+Computer disconnected at: 24-09-14 11:54:36 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:54:36 
+
+Computer connected at: 24-09-14 11:54:37 
+
+Computer disconnected at: 24-09-14 11:54:48 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:54:48 
+
+Computer connected at: 24-09-14 11:54:50 
+
+Computer disconnected at: 24-09-14 11:55:21 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:55:22 
+
+Computer connected at: 24-09-14 11:55:26 
+
+Computer disconnected at: 24-09-14 11:55:30 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:55:31 
+
+Computer connected at: 24-09-14 11:55:33 
+
+Computer disconnected at: 24-09-14 11:55:39 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:55:40 
+
+Computer connected at: 24-09-14 11:55:42 
+
+Computer disconnected at: 24-09-14 11:55:54 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:55:54 
+
+Computer connected at: 24-09-14 11:55:57 
+
+Computer disconnected at: 24-09-14 11:56:03 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:56:04 
+
+Computer connected at: 24-09-14 11:56:06 
+
+Computer disconnected at: 24-09-14 11:56:11 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:56:12 
+
+Computer connected at: 24-09-14 11:56:15 
+
+Computer disconnected at: 24-09-14 11:56:21 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:56:22 
+
+Computer connected at: 24-09-14 11:56:24 
+
+Computer disconnected at: 24-09-14 11:56:30 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:56:30 
+
+Computer connected at: 24-09-14 11:56:33 
+
+Computer disconnected at: 24-09-14 11:56:41 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:56:41 
+
+Computer connected at: 24-09-14 11:56:43 
+
+Computer disconnected at: 24-09-14 11:56:50 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:56:50 
+
+Computer connected at: 24-09-14 11:56:52 
+
+Computer disconnected at: 24-09-14 11:57:02 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:57:03 
+
+Computer connected at: 24-09-14 11:57:05 
+
+Computer disconnected at: 24-09-14 11:57:11 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:57:11 
+
+Computer connected at: 24-09-14 11:57:13 
+
+Computer disconnected at: 24-09-14 11:57:20 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:57:21 
+
+Computer connected at: 24-09-14 11:57:23 
+
+Computer disconnected at: 24-09-14 11:57:29 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:57:30 
+
+Computer connected at: 24-09-14 11:57:32 
+
+Computer disconnected at: 24-09-14 11:57:37 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:57:38 
+
+Computer connected at: 24-09-14 11:57:39 
+
+Computer disconnected at: 24-09-14 11:57:43 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:57:44 
+
+Computer connected at: 24-09-14 11:57:46 
+
+Computer disconnected at: 24-09-14 11:57:51 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:57:52 
+
+Computer connected at: 24-09-14 11:57:53 
+
+Computer disconnected at: 24-09-14 11:57:57 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:57:58 
+
+Computer connected at: 24-09-14 11:58:00 
+
+Computer disconnected at: 24-09-14 11:58:04 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:58:05 
+
+Computer connected at: 24-09-14 11:58:06 
+
+Computer disconnected at: 24-09-14 11:58:10 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:58:11 
+
+Computer connected at: 24-09-14 11:58:13 
+
+Computer disconnected at: 24-09-14 11:58:18 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:58:19 
+
+Computer connected at: 24-09-14 11:58:20 
+
+Computer disconnected at: 24-09-14 11:58:25 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:58:26 
+
+Computer connected at: 24-09-14 11:58:27 
+
+Computer disconnected at: 24-09-14 11:59:16 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 11:59:17 
+
+Computer connected at: 24-09-14 13:38:26 
+
+Computer disconnected at: 24-09-14 13:51:11 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:51:11 
+
+Computer connected at: 24-09-14 13:51:13 
+
+Computer disconnected at: 24-09-14 13:51:58 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:51:59 
+
+Computer connected at: 24-09-14 13:51:59 
+
+Computer disconnected at: 24-09-14 13:52:07 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:52:07 
+
+Computer connected at: 24-09-14 13:52:09 
+
+Computer disconnected at: 24-09-14 13:52:18 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:52:18 
+
+Computer connected at: 24-09-14 13:52:20 
+
+Computer disconnected at: 24-09-14 13:52:27 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:52:27 
+
+Computer connected at: 24-09-14 13:52:29 
+
+Computer disconnected at: 24-09-14 13:52:34 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:52:35 
+
+Computer connected at: 24-09-14 13:52:37 
+
+Computer disconnected at: 24-09-14 13:52:42 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:52:43 
+
+Computer connected at: 24-09-14 13:52:46 
+
+Computer disconnected at: 24-09-14 13:52:52 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:52:53 
+
+Computer connected at: 24-09-14 13:52:55 
+
+Computer disconnected at: 24-09-14 13:53:10 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:53:11 
+
+Computer connected at: 24-09-14 13:53:18 
+
+Computer disconnected at: 24-09-14 13:53:25 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:53:26 
+
+Computer connected at: 24-09-14 13:53:28 
+
+Computer disconnected at: 24-09-14 13:53:34 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:53:35 
+
+Computer connected at: 24-09-14 13:53:37 
+
+Computer disconnected at: 24-09-14 13:53:43 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:53:44 
+
+Computer connected at: 24-09-14 13:53:46 
+
+Computer disconnected at: 24-09-14 13:53:52 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:53:52 
+
+Computer connected at: 24-09-14 13:53:55 
+
+Computer disconnected at: 24-09-14 13:54:01 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:54:02 
+
+Computer connected at: 24-09-14 13:54:04 
+
+Computer disconnected at: 24-09-14 13:54:09 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:54:10 
+
+Computer connected at: 24-09-14 13:54:13 
+
+Computer disconnected at: 24-09-14 13:54:22 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:54:23 
+
+Computer connected at: 24-09-14 13:54:25 
+
+Computer disconnected at: 24-09-14 13:54:30 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:54:31 
+
+Computer connected at: 24-09-14 13:54:33 
+
+Computer disconnected at: 24-09-14 13:54:38 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:54:39 
+
+Computer connected at: 24-09-14 13:54:42 
+
+Computer disconnected at: 24-09-14 13:54:48 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:54:49 
+
+Computer connected at: 24-09-14 13:54:52 
+
+Computer disconnected at: 24-09-14 13:54:59 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:55:00 
+
+Computer connected at: 24-09-14 13:55:02 
+
+Computer disconnected at: 24-09-14 13:55:10 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:55:11 
+
+Computer connected at: 24-09-14 13:55:13 
+
+Computer disconnected at: 24-09-14 13:55:30 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:55:30 
+
+Computer connected at: 24-09-14 13:55:32 
+
+Computer disconnected at: 24-09-14 13:57:29 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-14 13:57:29 
+
+Computer connected at: 24-09-15 00:15:53 
+
+Computer disconnected at: 24-09-15 00:16:15 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 00:16:15 
+
+Computer connected at: 24-09-15 00:16:20 
+
+Computer disconnected at: 24-09-15 00:16:25 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 00:16:26 
+
+Computer connected at: 24-09-15 00:16:29 
+
+Computer disconnected at: 24-09-15 00:16:37 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 00:16:37 
+
+Computer connected at: 24-09-15 00:16:41 
+
+Computer disconnected at: 24-09-15 00:16:47 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 00:16:48 
+
+Computer connected at: 24-09-15 00:16:50 
+
+Computer disconnected at: 24-09-15 00:16:57 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 00:16:57 
+
+Computer connected at: 24-09-15 00:16:59 
+
+Computer disconnected at: 24-09-15 00:17:08 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 00:17:09 
+
+Computer connected at: 24-09-15 00:17:13 
+
+Computer disconnected at: 24-09-15 00:17:19 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 00:17:20 
+
+Computer connected at: 24-09-15 00:17:23 
+
+Computer disconnected at: 24-09-15 00:17:35 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 00:17:35 
+
+Computer connected at: 24-09-15 00:17:41 
+
+Computer disconnected at: 24-09-15 00:17:46 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 00:17:46 
+
+Computer connected at: 24-09-15 00:17:51 
+
+Computer disconnected at: 24-09-15 00:17:56 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 00:17:57 
+
+Computer connected at: 24-09-15 00:17:59 
+
+Computer disconnected at: 24-09-15 00:18:50 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 00:18:51 
+
+Computer connected at: 24-09-15 11:38:40 
+
+Computer disconnected at: 24-09-15 11:38:51 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:38:52 
+
+Computer connected at: 24-09-15 11:38:53 
+
+Computer disconnected at: 24-09-15 11:39:03 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:39:04 
+
+Computer connected at: 24-09-15 11:39:06 
+
+Computer disconnected at: 24-09-15 11:39:11 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:39:11 
+
+Computer connected at: 24-09-15 11:39:14 
+
+Computer disconnected at: 24-09-15 11:39:21 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:39:22 
+
+Computer connected at: 24-09-15 11:39:24 
+
+Computer disconnected at: 24-09-15 11:39:31 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:39:32 
+
+Computer connected at: 24-09-15 11:39:33 
+
+Computer disconnected at: 24-09-15 11:39:38 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:39:39 
+
+Computer connected at: 24-09-15 11:39:42 
+
+Computer disconnected at: 24-09-15 11:39:47 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:39:48 
+
+Computer connected at: 24-09-15 11:39:49 
+
+Computer disconnected at: 24-09-15 11:39:56 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:39:56 
+
+Computer connected at: 24-09-15 11:39:59 
+
+Computer disconnected at: 24-09-15 11:40:04 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:40:05 
+
+Computer connected at: 24-09-15 11:40:06 
+
+Computer disconnected at: 24-09-15 11:40:19 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:40:20 
+
+Computer connected at: 24-09-15 11:40:24 
+
+Computer disconnected at: 24-09-15 11:40:30 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:40:31 
+
+Computer connected at: 24-09-15 11:40:33 
+
+Computer disconnected at: 24-09-15 11:40:38 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:40:38 
+
+Computer connected at: 24-09-15 11:40:40 
+
+Computer disconnected at: 24-09-15 11:40:45 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:40:46 
+
+Computer connected at: 24-09-15 11:40:47 
+
+Computer disconnected at: 24-09-15 11:40:53 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:40:54 
+
+Computer connected at: 24-09-15 11:40:56 
+
+Computer disconnected at: 24-09-15 11:41:01 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:41:02 
+
+Computer connected at: 24-09-15 11:41:03 
+
+Computer disconnected at: 24-09-15 11:41:09 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:41:09 
+
+Computer connected at: 24-09-15 11:41:11 
+
+Computer disconnected at: 24-09-15 11:41:16 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:41:17 
+
+Computer connected at: 24-09-15 11:41:19 
+
+Computer disconnected at: 24-09-15 11:41:24 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:41:25 
+
+Computer connected at: 24-09-15 11:41:26 
+
+Computer disconnected at: 24-09-15 11:41:30 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:41:31 
+
+Computer connected at: 24-09-15 11:41:33 
+
+Computer disconnected at: 24-09-15 11:41:38 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:41:39 
+
+Computer connected at: 24-09-15 11:41:41 
+
+Computer disconnected at: 24-09-15 11:41:46 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:41:47 
+
+Computer connected at: 24-09-15 11:41:49 
+
+Computer disconnected at: 24-09-15 11:41:56 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:41:56 
+
+Computer connected at: 24-09-15 11:41:59 
+
+Computer disconnected at: 24-09-15 11:47:16 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 11:47:17 
+
+Computer connected at: 24-09-15 21:46:50 
+
+Computer disconnected at: 24-09-15 21:46:55 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 21:46:56 
+
+Computer connected at: 24-09-15 21:46:57 
+
+Computer disconnected at: 24-09-15 21:47:03 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 21:47:04 
+
+Computer connected at: 24-09-15 21:47:05 
+
+Computer disconnected at: 24-09-15 21:47:10 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 21:47:11 
+
+Computer connected at: 24-09-15 21:47:12 
+
+Computer disconnected at: 24-09-15 21:47:18 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 21:47:18 
+
+Computer connected at: 24-09-15 21:47:20 
+
+Computer disconnected at: 24-09-15 21:47:26 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 21:47:27 
+
+Computer connected at: 24-09-15 21:47:28 
+
+Computer disconnected at: 24-09-15 21:47:36 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 21:47:37 
+
+Computer connected at: 24-09-15 21:47:38 
+
+Computer disconnected at: 24-09-15 21:47:43 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 21:47:44 
+
+Computer connected at: 24-09-15 21:47:46 
+
+Computer disconnected at: 24-09-15 21:47:52 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 21:47:53 
+
+Computer connected at: 24-09-15 21:47:55 
+
+Computer disconnected at: 24-09-15 21:48:01 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 21:48:02 
+
+Computer connected at: 24-09-15 21:48:04 
+
+Computer disconnected at: 24-09-15 21:48:10 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 21:48:10 
+
+Computer connected at: 24-09-15 21:48:13 
+
+Computer disconnected at: 24-09-15 21:48:19 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 21:48:20 
+
+Computer connected at: 24-09-15 21:48:21 
+
+Computer disconnected at: 24-09-15 21:51:05 
+
+	Firmware: Apr  3 2023 09:43:22
+LDA Classifier ImgCapt:3 ManualExp BLE Off TOF Off 
+Participant ID: _NOT-SET_
+Module: _NOT-SET_
+Start date: _NOT-SET_
+End date: _NOT-SET_
+	Data collection starts at: 24-09-15 21:51:06 
+
+Computer connected at: 24-09-15 21:51:12 
+
+Computer disconnected at: 24-09-15 21:51:23 
+
